@@ -3,28 +3,53 @@
 @File  : sendEmail.py
 @Date  : 2019/1/15/015 17:32
 '''
-#gvbvpqbosvrybcic
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-sender = '740207942@qq.com'
-receivers = ['2395027402@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+from common.parseConfig import ParseConfig
+from config.config import RECEIVERS
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
 
-# 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
-message = MIMEText('Python 邮件发送测试...', 'plain', 'utf-8')
-message['From'] = Header("测试", 'utf-8')  # 发送者
-message['To'] = Header("测试", 'utf-8')  # 接收者
-print("1")
-subject = 'Python SMTP 邮件测试'
-message['Subject'] = Header(subject, 'utf-8')
 
-# try:
-smtpObj = smtplib.SMTP("smtp.qq.com")
-print(2)
-smtpObj.login("740207942@qq.com","gvbvpqbosvrybcic")
-smtpObj.sendmail(sender, receivers, message.as_string())
+pc = ParseConfig()
+email_info = pc.get_info("email")
 
-# except smtplib.SMTPException as e:
-#     print(e)
-#     print("发送失败")
 
+class SendEmail(object):
+    def __init__(self):
+        self.stmp = smtplib.SMTP(email_info["server"])
+        self.msg = None
+
+    def set_msg(self, text,part_path):
+        message = MIMEMultipart()
+        message.attach(MIMEText(text, 'plain', 'utf-8'))
+        message['From'] = Header(email_info["msgfrom"], 'utf-8')  # 发送者
+        subject = email_info["subject"]
+        message['Subject'] = Header(subject, 'utf-8')
+
+        with open(part_path,"rb") as f:
+            part=MIMEApplication(f.read())
+            part.add_header('Content-Disposition', 'attachment', filename="测试报告.xls")
+            message.attach(part)
+            f.close()
+        self.msg = message
+
+    def send_email(self, sender, recivers):
+        self.stmp.login(email_info["user"], email_info["pwd"])
+        self.stmp.sendmail(sender, recivers, self.msg.as_string())
+
+
+def send_email_for_all(msg,part_path):
+    """
+    群发信息
+    :param msg: 正文
+    :param part_path:附件地址
+    :return:
+    """
+    receivers = RECEIVERS
+    sender = 'ning.tonggang@qianka.com'
+    se = SendEmail()
+    message="Dear all,\n  {},详情见附件：".format(msg)
+    se.set_msg(message,part_path)
+    se.send_email(sender, receivers)

@@ -1,0 +1,883 @@
+2019-02-21 09:54:12,683 - DEBUG -newRun.py : 625 :<module> - ******************************************START******************************************
+2019-02-21 09:54:12,842 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 09:54:12,842 - INFO -newRun.py : 527 :runAll - 共获取2条用例
+2019-02-21 09:54:12,977 - INFO -newRun.py : 547 :runAll - 正在执行caseId=5的用例
+2019-02-21 09:54:12,977 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-02-21 09:54:13,332 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=6c7de87e1c5c4b01b302a15336c3a02d;ln=1;lu=51229777
+2019-02-21 09:54:13,390 - INFO -newRun.py : 547 :runAll - 正在执行caseId=6的用例
+2019-02-21 09:54:13,390 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-02-21 09:54:13,589 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778
+2019-02-21 09:54:13,898 - INFO -newRun.py : 612 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.91秒，共执行用例：2条，成功：0条，失败：0条，阻塞：2条
+2019-02-21 09:54:13,899 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 09:54:13,905 - DEBUG -newRun.py : 627 :<module> - ******************************************END******************************************
+2019-02-21 10:46:52,170 - DEBUG -newRun.py : 625 :<module> - ******************************************START******************************************
+2019-02-21 10:46:52,333 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 10:46:52,334 - INFO -newRun.py : 527 :runAll - 共获取1条用例
+2019-02-21 10:46:52,536 - INFO -newRun.py : 547 :runAll - 正在执行caseId=2的用例
+2019-02-21 10:46:52,537 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 10:46:53,216 - INFO -newRun.py : 612 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.7秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 10:46:53,220 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 10:46:53,230 - DEBUG -newRun.py : 627 :<module> - ******************************************END******************************************
+2019-02-21 11:35:27,889 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:37:46,225 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:44:39,853 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:45:06,186 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:45:22,134 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:46:58,406 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:47:26,374 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:47:38,707 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:48:34,872 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:48:43,384 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:49:04,961 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:49:47,149 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:50:02,245 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:50:34,556 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:58:27,970 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:58:41,870 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:59:23,481 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 11:59:34,147 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 12:00:00,121 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:35:51,671 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:36:14,834 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:37:10,767 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:37:23,476 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:47:23,061 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:47:53,274 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:48:24,349 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:54:03,316 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:54:21,378 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:54:30,333 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:55:25,227 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:56:16,259 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:57:46,762 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:58:01,520 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:58:11,923 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 13:59:22,057 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:14:23,266 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:14:46,318 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:15:31,678 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:16:36,008 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:18:04,037 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:18:23,049 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:19:22,314 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:20:27,885 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:21:21,614 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:31:39,714 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:33:44,018 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:34:11,008 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:34:37,674 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:34:47,050 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:35:33,336 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:35:48,027 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:36:01,222 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:36:26,929 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:39:30,308 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:39:36,024 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:39:46,595 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:41:09,127 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:41:25,150 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:41:46,340 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:42:41,372 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:43:08,208 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:44:24,192 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:45:13,117 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:45:27,766 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:47:27,433 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:53:18,844 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:55:20,524 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:55:41,354 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:55:55,840 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:/project/ApiTest/cases\case_user.xlsx
+2019-02-21 14:56:20,410 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-21 14:56:20,614 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 14:56:20,614 - INFO -newRun.py : 530 :runAll - 共获取1条用例
+2019-02-21 14:56:20,746 - INFO -newRun.py : 550 :runAll - 正在执行caseId=8的用例
+2019-02-21 14:56:20,746 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 14:56:20,786 - ERROR -newRun.py : 245 :request_api - ERRRR:暂不支持这种请求方式
+2019-02-21 14:56:20,939 - INFO -newRun.py : 615 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.26秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 14:56:20,941 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 14:56:20,946 - DEBUG -newRun.py : 630 :<module> - ******************************************END******************************************
+2019-02-21 14:56:52,839 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-21 14:56:52,997 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 14:56:52,997 - INFO -newRun.py : 530 :runAll - 共获取1条用例
+2019-02-21 14:56:53,181 - INFO -newRun.py : 550 :runAll - 正在执行caseId=8的用例
+2019-02-21 14:56:53,182 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 14:56:53,904 - INFO -newRun.py : 615 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.73秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 14:56:53,906 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 14:56:53,912 - DEBUG -newRun.py : 630 :<module> - ******************************************END******************************************
+2019-02-21 15:04:13,174 - DEBUG -newRun.py : 632 :<module> - ******************************************START******************************************
+2019-02-21 15:04:13,358 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:04:13,359 - INFO -newRun.py : 534 :runAll - 共获取1条用例
+2019-02-21 15:04:13,453 - INFO -newRun.py : 554 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:04:13,453 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:11:21,500 - DEBUG -newRun.py : 634 :<module> - ******************************************START******************************************
+2019-02-21 15:11:21,692 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:11:21,692 - INFO -newRun.py : 536 :runAll - 共获取1条用例
+2019-02-21 15:11:21,924 - INFO -newRun.py : 556 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:11:21,925 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:11:22,084 - ERROR -newRun.py : 479 :check - 'builtin_function_or_method' object is not iterable
+2019-02-21 15:11:22,378 - INFO -newRun.py : 621 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.47秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:11:22,379 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:11:37,062 - DEBUG -newRun.py : 634 :<module> - ******************************************START******************************************
+2019-02-21 15:11:37,297 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:11:37,297 - INFO -newRun.py : 536 :runAll - 共获取1条用例
+2019-02-21 15:11:37,694 - INFO -newRun.py : 556 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:11:37,694 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:11:37,867 - ERROR -newRun.py : 479 :check - 'builtin_function_or_method' object is not iterable
+2019-02-21 15:11:38,147 - INFO -newRun.py : 621 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.66秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:11:38,150 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:11:38,156 - DEBUG -newRun.py : 636 :<module> - ******************************************END******************************************
+2019-02-21 15:29:35,625 - DEBUG -newRun.py : 635 :<module> - ******************************************START******************************************
+2019-02-21 15:29:35,884 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:29:35,884 - INFO -newRun.py : 537 :runAll - 共获取1条用例
+2019-02-21 15:29:36,000 - INFO -newRun.py : 557 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:29:36,000 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:29:36,414 - INFO -newRun.py : 622 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.4秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:29:36,416 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:29:36,421 - DEBUG -newRun.py : 637 :<module> - ******************************************END******************************************
+2019-02-21 15:29:53,818 - DEBUG -newRun.py : 635 :<module> - ******************************************START******************************************
+2019-02-21 15:29:53,935 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:29:53,936 - INFO -newRun.py : 537 :runAll - 共获取1条用例
+2019-02-21 15:29:54,032 - INFO -newRun.py : 557 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:29:54,032 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:29:54,455 - INFO -newRun.py : 622 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.4秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:29:54,457 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:29:54,465 - DEBUG -newRun.py : 637 :<module> - ******************************************END******************************************
+2019-02-21 15:30:22,848 - DEBUG -newRun.py : 635 :<module> - ******************************************START******************************************
+2019-02-21 15:30:23,037 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:30:23,037 - INFO -newRun.py : 537 :runAll - 共获取1条用例
+2019-02-21 15:30:23,338 - INFO -newRun.py : 557 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:30:23,338 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:30:23,751 - INFO -newRun.py : 622 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.6秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:30:23,755 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:30:23,766 - DEBUG -newRun.py : 637 :<module> - ******************************************END******************************************
+2019-02-21 15:31:41,661 - DEBUG -newRun.py : 636 :<module> - ******************************************START******************************************
+2019-02-21 15:31:41,790 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:31:41,790 - INFO -newRun.py : 538 :runAll - 共获取1条用例
+2019-02-21 15:31:41,925 - INFO -newRun.py : 558 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:31:41,925 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:31:42,058 - ERROR -newRun.py : 481 :check - 'payload'
+2019-02-21 15:31:42,238 - INFO -newRun.py : 623 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.35秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:31:42,242 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:31:42,252 - DEBUG -newRun.py : 638 :<module> - ******************************************END******************************************
+2019-02-21 15:31:54,406 - DEBUG -newRun.py : 636 :<module> - ******************************************START******************************************
+2019-02-21 15:31:54,602 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:31:54,602 - INFO -newRun.py : 538 :runAll - 共获取1条用例
+2019-02-21 15:31:54,773 - INFO -newRun.py : 558 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:31:54,774 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:31:55,249 - INFO -newRun.py : 623 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.48秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:31:55,251 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:31:55,256 - DEBUG -newRun.py : 638 :<module> - ******************************************END******************************************
+2019-02-21 15:32:25,632 - DEBUG -newRun.py : 636 :<module> - ******************************************START******************************************
+2019-02-21 15:32:25,844 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:32:25,844 - INFO -newRun.py : 538 :runAll - 共获取1条用例
+2019-02-21 15:32:26,126 - INFO -newRun.py : 558 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:32:26,126 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:32:26,530 - INFO -newRun.py : 623 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.55秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:32:26,531 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:32:26,534 - DEBUG -newRun.py : 638 :<module> - ******************************************END******************************************
+2019-02-21 15:33:35,654 - DEBUG -newRun.py : 637 :<module> - ******************************************START******************************************
+2019-02-21 15:33:36,101 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:33:36,101 - INFO -newRun.py : 539 :runAll - 共获取1条用例
+2019-02-21 15:33:36,677 - INFO -newRun.py : 559 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:33:36,678 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:33:37,132 - ERROR -newRun.py : 482 :check - 'payload'
+2019-02-21 15:33:37,705 - INFO -newRun.py : 624 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时1.25秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 15:33:37,709 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 15:33:37,719 - DEBUG -newRun.py : 639 :<module> - ******************************************END******************************************
+2019-02-21 15:36:16,119 - DEBUG -newRun.py : 638 :<module> - ******************************************START******************************************
+2019-02-21 15:36:16,295 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:36:16,296 - INFO -newRun.py : 540 :runAll - 共获取1条用例
+2019-02-21 15:36:16,529 - INFO -newRun.py : 560 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:36:16,530 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:37:06,343 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:37:06,543 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:37:06,544 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:37:06,700 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:37:06,700 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:38:02,061 - DEBUG -newRun.py : 641 :<module> - ******************************************START******************************************
+2019-02-21 15:38:02,179 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:38:02,180 - INFO -newRun.py : 543 :runAll - 共获取1条用例
+2019-02-21 15:38:02,282 - INFO -newRun.py : 563 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:38:02,283 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:38:12,001 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:38:12,115 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:38:12,115 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:38:12,290 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:38:12,291 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:39:23,527 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:39:23,721 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:39:23,721 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:39:23,912 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:39:23,913 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:39:56,559 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:39:56,994 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:39:56,995 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:39:57,476 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:39:57,476 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:40:33,107 - DEBUG -newRun.py : 641 :<module> - ******************************************START******************************************
+2019-02-21 15:40:33,302 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:40:33,302 - INFO -newRun.py : 543 :runAll - 共获取1条用例
+2019-02-21 15:40:33,504 - INFO -newRun.py : 563 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:40:33,505 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:41:57,850 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:41:57,966 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:41:57,966 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:41:58,126 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:41:58,127 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:42:16,029 - DEBUG -newRun.py : 644 :<module> - ******************************************START******************************************
+2019-02-21 15:42:16,250 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:42:16,250 - INFO -newRun.py : 546 :runAll - 共获取1条用例
+2019-02-21 15:42:16,503 - INFO -newRun.py : 566 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:42:16,503 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:46:08,827 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:46:09,009 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:46:09,009 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:46:09,283 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:46:09,283 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:46:23,891 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:46:24,077 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:46:24,077 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:46:24,241 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:46:24,242 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:46:35,622 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:46:35,855 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:46:35,856 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:46:36,101 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:46:36,102 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:47:11,730 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:47:11,898 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:47:11,898 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:47:12,020 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:47:12,021 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:50:38,531 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:50:38,703 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:50:38,704 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:50:38,813 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:50:38,813 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:52:57,945 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:52:58,174 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:52:58,175 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:52:58,417 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:52:58,417 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:53:15,769 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:53:16,024 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:53:16,024 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:53:16,237 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:53:16,237 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:54:23,487 - DEBUG -newRun.py : 643 :<module> - ******************************************START******************************************
+2019-02-21 15:54:23,822 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:54:23,822 - INFO -newRun.py : 545 :runAll - 共获取1条用例
+2019-02-21 15:54:24,003 - INFO -newRun.py : 565 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:54:24,004 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:55:25,478 - DEBUG -newRun.py : 642 :<module> - ******************************************START******************************************
+2019-02-21 15:55:25,799 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:55:25,799 - INFO -newRun.py : 544 :runAll - 共获取1条用例
+2019-02-21 15:55:26,057 - INFO -newRun.py : 564 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:55:26,058 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:56:48,157 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:56:48,353 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:56:48,354 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:56:48,565 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:56:48,565 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:57:01,160 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:57:01,313 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:57:01,313 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:57:01,469 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:57:01,470 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:57:16,768 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:57:16,994 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:57:16,994 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:57:17,162 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:57:17,162 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:57:32,177 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-21 15:57:32,332 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:57:32,333 - INFO -newRun.py : 542 :runAll - 共获取1条用例
+2019-02-21 15:57:32,524 - INFO -newRun.py : 562 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:57:32,524 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:58:22,529 - DEBUG -newRun.py : 642 :<module> - ******************************************START******************************************
+2019-02-21 15:58:22,750 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:58:22,751 - INFO -newRun.py : 544 :runAll - 共获取1条用例
+2019-02-21 15:58:22,881 - INFO -newRun.py : 564 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:58:22,881 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 15:59:06,845 - DEBUG -newRun.py : 642 :<module> - ******************************************START******************************************
+2019-02-21 15:59:07,040 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 15:59:07,040 - INFO -newRun.py : 544 :runAll - 共获取1条用例
+2019-02-21 15:59:07,161 - INFO -newRun.py : 564 :runAll - 正在执行caseId=8的用例
+2019-02-21 15:59:07,161 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:07:10,324 - DEBUG -newRun.py : 655 :<module> - ******************************************START******************************************
+2019-02-21 16:07:10,476 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:07:10,477 - INFO -newRun.py : 557 :runAll - 共获取1条用例
+2019-02-21 16:07:10,638 - INFO -newRun.py : 577 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:07:10,639 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:08:00,606 - DEBUG -newRun.py : 656 :<module> - ******************************************START******************************************
+2019-02-21 16:08:00,810 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:08:00,810 - INFO -newRun.py : 558 :runAll - 共获取1条用例
+2019-02-21 16:08:00,966 - INFO -newRun.py : 578 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:08:00,966 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:08:33,188 - DEBUG -newRun.py : 657 :<module> - ******************************************START******************************************
+2019-02-21 16:08:33,358 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:08:33,358 - INFO -newRun.py : 559 :runAll - 共获取1条用例
+2019-02-21 16:08:33,592 - INFO -newRun.py : 579 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:08:33,592 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:09:16,164 - DEBUG -newRun.py : 657 :<module> - ******************************************START******************************************
+2019-02-21 16:09:16,344 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:09:16,344 - INFO -newRun.py : 559 :runAll - 共获取1条用例
+2019-02-21 16:09:16,597 - INFO -newRun.py : 579 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:09:16,597 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:09:26,281 - DEBUG -newRun.py : 658 :<module> - ******************************************START******************************************
+2019-02-21 16:09:26,485 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:09:26,485 - INFO -newRun.py : 560 :runAll - 共获取1条用例
+2019-02-21 16:09:26,683 - INFO -newRun.py : 580 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:09:26,683 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:09:53,140 - DEBUG -newRun.py : 659 :<module> - ******************************************START******************************************
+2019-02-21 16:09:53,279 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:09:53,279 - INFO -newRun.py : 561 :runAll - 共获取1条用例
+2019-02-21 16:09:53,363 - INFO -newRun.py : 581 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:09:53,363 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:10:32,929 - DEBUG -newRun.py : 655 :<module> - ******************************************START******************************************
+2019-02-21 16:10:33,162 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:10:33,162 - INFO -newRun.py : 557 :runAll - 共获取1条用例
+2019-02-21 16:10:33,402 - INFO -newRun.py : 577 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:10:33,403 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:10:49,185 - DEBUG -newRun.py : 657 :<module> - ******************************************START******************************************
+2019-02-21 16:10:49,384 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:10:49,384 - INFO -newRun.py : 559 :runAll - 共获取1条用例
+2019-02-21 16:10:49,592 - INFO -newRun.py : 579 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:10:49,592 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:11:22,766 - DEBUG -newRun.py : 658 :<module> - ******************************************START******************************************
+2019-02-21 16:11:23,006 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:11:23,006 - INFO -newRun.py : 560 :runAll - 共获取1条用例
+2019-02-21 16:11:23,122 - INFO -newRun.py : 580 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:11:23,122 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:12:02,447 - DEBUG -newRun.py : 658 :<module> - ******************************************START******************************************
+2019-02-21 16:12:02,690 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:12:02,691 - INFO -newRun.py : 560 :runAll - 共获取1条用例
+2019-02-21 16:12:02,997 - INFO -newRun.py : 580 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:12:02,998 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:12:38,102 - DEBUG -newRun.py : 657 :<module> - ******************************************START******************************************
+2019-02-21 16:12:38,322 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:12:38,323 - INFO -newRun.py : 559 :runAll - 共获取1条用例
+2019-02-21 16:12:38,416 - INFO -newRun.py : 579 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:12:38,416 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:13:09,916 - DEBUG -newRun.py : 658 :<module> - ******************************************START******************************************
+2019-02-21 16:13:10,205 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:13:10,205 - INFO -newRun.py : 560 :runAll - 共获取1条用例
+2019-02-21 16:13:10,300 - INFO -newRun.py : 580 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:13:10,300 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:27:14,150 - DEBUG -newRun.py : 659 :<module> - ******************************************START******************************************
+2019-02-21 16:27:14,320 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:27:14,320 - INFO -newRun.py : 561 :runAll - 共获取1条用例
+2019-02-21 16:27:14,513 - INFO -newRun.py : 581 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:27:14,513 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:27:41,432 - DEBUG -newRun.py : 660 :<module> - ******************************************START******************************************
+2019-02-21 16:27:41,722 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:27:41,723 - INFO -newRun.py : 562 :runAll - 共获取1条用例
+2019-02-21 16:27:41,894 - INFO -newRun.py : 582 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:27:41,894 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:28:19,079 - DEBUG -newRun.py : 661 :<module> - ******************************************START******************************************
+2019-02-21 16:28:19,333 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:28:19,334 - INFO -newRun.py : 563 :runAll - 共获取1条用例
+2019-02-21 16:28:19,484 - INFO -newRun.py : 583 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:28:19,485 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:28:42,513 - DEBUG -newRun.py : 661 :<module> - ******************************************START******************************************
+2019-02-21 16:28:42,631 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:28:42,631 - INFO -newRun.py : 563 :runAll - 共获取1条用例
+2019-02-21 16:28:42,794 - INFO -newRun.py : 583 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:28:42,795 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:30:52,314 - DEBUG -newRun.py : 662 :<module> - ******************************************START******************************************
+2019-02-21 16:30:52,433 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:30:52,433 - INFO -newRun.py : 564 :runAll - 共获取1条用例
+2019-02-21 16:30:52,536 - INFO -newRun.py : 584 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:30:52,537 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:31:16,261 - DEBUG -newRun.py : 662 :<module> - ******************************************START******************************************
+2019-02-21 16:31:16,434 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:31:16,434 - INFO -newRun.py : 564 :runAll - 共获取1条用例
+2019-02-21 16:31:16,556 - INFO -newRun.py : 584 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:31:16,556 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:31:16,975 - INFO -newRun.py : 649 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.39秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 16:31:16,977 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 16:32:38,360 - DEBUG -newRun.py : 661 :<module> - ******************************************START******************************************
+2019-02-21 16:32:38,538 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:32:38,538 - INFO -newRun.py : 563 :runAll - 共获取1条用例
+2019-02-21 16:32:38,759 - INFO -newRun.py : 583 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:32:38,759 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:32:39,241 - INFO -newRun.py : 648 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.55秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 16:32:39,242 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 16:33:00,976 - DEBUG -newRun.py : 661 :<module> - ******************************************START******************************************
+2019-02-21 16:33:01,166 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:33:01,167 - INFO -newRun.py : 563 :runAll - 共获取1条用例
+2019-02-21 16:33:01,365 - INFO -newRun.py : 583 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:33:01,366 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:33:01,930 - INFO -newRun.py : 648 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.48秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 16:33:01,937 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 16:53:44,641 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 16:54:29,136 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 16:54:52,994 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 16:56:27,936 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 16:56:27,948 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:56:27,948 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 16:56:28,038 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:56:28,038 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:59:03,940 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 16:59:03,965 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:59:03,966 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 16:59:04,163 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:59:04,164 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 16:59:36,387 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 16:59:36,403 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 16:59:36,403 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 16:59:36,456 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 16:59:36,456 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:01:03,906 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 17:01:03,932 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:01:03,932 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:01:04,079 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:01:04,079 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:01:11,392 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 17:01:11,441 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:01:11,442 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:01:11,572 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:01:11,573 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:01:45,446 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:01:45,461 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:01:45,461 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:01:45,587 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:01:45,587 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:01:45,750 - INFO -newRun.py : 630 :runAll - wanbi
+2019-02-21 17:02:10,772 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 17:02:10,793 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:02:10,793 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:02:10,999 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:02:10,999 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:02:37,862 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 17:02:37,870 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:02:37,870 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:02:37,964 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:02:37,965 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:04:10,766 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:04:10,780 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:04:10,780 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:04:10,847 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:04:10,847 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:04:48,620 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:04:48,629 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:04:48,629 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:04:48,754 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:04:48,755 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:06:19,439 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:06:19,450 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:06:19,450 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:06:19,540 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:06:19,540 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:06:49,547 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:06:49,578 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:06:49,578 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:06:49,694 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:06:49,695 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:20:02,591 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:20:02,792 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:20:02,793 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:20:02,881 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:20:02,881 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:20:03,292 - INFO -newRun.py : 675 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.37秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:20:03,295 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:20:03,302 - DEBUG -newRun.py : 690 :<module> - ******************************************END******************************************
+2019-02-21 17:21:50,772 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:21:50,955 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:21:50,956 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:21:51,137 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:21:51,138 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:21:51,582 - INFO -newRun.py : 670 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.48秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:21:51,584 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:21:51,590 - DEBUG -newRun.py : 685 :<module> - ******************************************END******************************************
+2019-02-21 17:22:17,343 - DEBUG -newRun.py : 684 :<module> - ******************************************START******************************************
+2019-02-21 17:22:17,532 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:22:17,533 - INFO -newRun.py : 583 :runAll - 共获取1条用例
+2019-02-21 17:22:17,718 - INFO -newRun.py : 603 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:22:17,718 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:22:18,051 - INFO -newRun.py : 671 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.42秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:22:18,052 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:22:18,055 - DEBUG -newRun.py : 686 :<module> - ******************************************END******************************************
+2019-02-21 17:22:26,124 - DEBUG -newRun.py : 684 :<module> - ******************************************START******************************************
+2019-02-21 17:22:26,279 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:22:26,279 - INFO -newRun.py : 583 :runAll - 共获取1条用例
+2019-02-21 17:22:26,439 - INFO -newRun.py : 603 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:22:26,439 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:22:26,944 - INFO -newRun.py : 671 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.51秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 17:22:26,946 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:22:26,953 - DEBUG -newRun.py : 686 :<module> - ******************************************END******************************************
+2019-02-21 17:22:50,113 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:22:50,257 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:23:33,707 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:23:33,817 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:23:48,098 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:23:48,263 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:24:09,585 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:24:09,760 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:24:09,760 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:24:09,869 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:24:09,869 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:24:22,119 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:24:22,319 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:24:22,320 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:24:22,449 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:24:22,449 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:27:17,626 - DEBUG -newRun.py : 684 :<module> - ******************************************START******************************************
+2019-02-21 17:27:17,752 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:27:17,753 - INFO -newRun.py : 583 :runAll - 共获取1条用例
+2019-02-21 17:27:17,861 - INFO -newRun.py : 603 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:27:17,861 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:28:03,181 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:28:03,289 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:28:03,289 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:28:03,414 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:28:03,414 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:28:34,667 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:28:34,845 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:28:34,845 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:28:35,157 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:28:35,157 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:28:35,701 - INFO -newRun.py : 670 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.6秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 17:28:35,704 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:28:35,714 - DEBUG -newRun.py : 685 :<module> - ******************************************END******************************************
+2019-02-21 17:29:02,461 - DEBUG -newRun.py : 683 :<module> - ******************************************START******************************************
+2019-02-21 17:29:02,645 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:29:02,645 - INFO -newRun.py : 582 :runAll - 共获取1条用例
+2019-02-21 17:29:02,833 - INFO -newRun.py : 602 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:29:02,834 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:29:38,291 - DEBUG -newRun.py : 684 :<module> - ******************************************START******************************************
+2019-02-21 17:29:38,425 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:29:38,425 - INFO -newRun.py : 583 :runAll - 共获取1条用例
+2019-02-21 17:29:38,616 - INFO -newRun.py : 603 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:29:38,616 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:29:52,750 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 17:29:53,032 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:29:53,032 - INFO -newRun.py : 584 :runAll - 共获取1条用例
+2019-02-21 17:29:53,166 - INFO -newRun.py : 604 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:29:53,166 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:30:27,993 - DEBUG -newRun.py : 685 :<module> - ******************************************START******************************************
+2019-02-21 17:30:28,154 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:30:28,154 - INFO -newRun.py : 584 :runAll - 共获取1条用例
+2019-02-21 17:30:28,271 - INFO -newRun.py : 604 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:30:28,271 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:31:17,231 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:31:17,386 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:31:17,386 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:31:17,562 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:31:17,562 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:33:46,668 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:33:46,805 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:33:46,805 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:33:46,982 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:33:46,983 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:35:08,533 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:35:08,688 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:35:08,689 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:35:08,848 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:35:08,848 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:35:20,585 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:35:20,756 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:35:20,757 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:35:20,939 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:35:20,939 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:35:57,892 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 17:35:58,111 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:35:58,111 - INFO -newRun.py : 585 :runAll - 共获取1条用例
+2019-02-21 17:35:58,305 - INFO -newRun.py : 605 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:35:58,306 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:36:38,886 - DEBUG -newRun.py : 686 :<module> - ******************************************START******************************************
+2019-02-21 17:36:39,077 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:36:39,077 - INFO -newRun.py : 585 :runAll - 共获取1条用例
+2019-02-21 17:36:39,252 - INFO -newRun.py : 605 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:36:39,252 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:36:39,619 - INFO -newRun.py : 673 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.41秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 17:36:39,623 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:36:39,633 - DEBUG -newRun.py : 688 :<module> - ******************************************END******************************************
+2019-02-21 17:54:20,889 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:54:21,012 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:54:21,013 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:54:21,170 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:54:21,171 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:54:21,676 - INFO -newRun.py : 674 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.59秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:54:21,678 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:54:21,683 - DEBUG -newRun.py : 689 :<module> - ******************************************END******************************************
+2019-02-21 17:54:37,959 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 17:54:38,246 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:54:38,247 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 17:54:38,617 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:54:38,617 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:54:39,242 - INFO -newRun.py : 674 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.78秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:54:39,246 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:54:39,255 - DEBUG -newRun.py : 689 :<module> - ******************************************END******************************************
+2019-02-21 17:54:56,510 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:54:56,679 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:54:56,680 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:54:56,900 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:54:56,900 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:54:57,469 - INFO -newRun.py : 675 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.59秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:54:57,473 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:54:57,482 - DEBUG -newRun.py : 690 :<module> - ******************************************END******************************************
+2019-02-21 17:55:17,488 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:55:17,721 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:55:17,721 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:55:17,825 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:55:17,825 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:55:18,404 - INFO -newRun.py : 675 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.53秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:55:18,407 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:55:18,414 - DEBUG -newRun.py : 690 :<module> - ******************************************END******************************************
+2019-02-21 17:57:10,496 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:57:10,646 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:57:10,647 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:57:10,931 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:57:10,931 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:57:11,407 - INFO -newRun.py : 675 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.69秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:57:11,410 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:57:11,417 - DEBUG -newRun.py : 690 :<module> - ******************************************END******************************************
+2019-02-21 17:57:37,276 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:57:37,463 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:57:37,463 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:57:37,709 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:57:37,709 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:57:57,427 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:57:57,570 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:57:57,570 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:57:57,675 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:57:57,676 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:57:58,236 - INFO -newRun.py : 675 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.48秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 17:57:58,236 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 17:57:58,239 - DEBUG -newRun.py : 690 :<module> - ******************************************END******************************************
+2019-02-21 17:59:12,390 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 17:59:12,671 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:59:12,671 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 17:59:12,839 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:59:12,840 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:59:37,509 - DEBUG -newRun.py : 689 :<module> - ******************************************START******************************************
+2019-02-21 17:59:37,720 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:59:37,720 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 17:59:37,939 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:59:37,939 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 17:59:40,580 - DEBUG -newRun.py : 689 :<module> - ******************************************START******************************************
+2019-02-21 17:59:40,755 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 17:59:40,755 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 17:59:40,915 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 17:59:40,915 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:00:13,407 - DEBUG -newRun.py : 689 :<module> - ******************************************START******************************************
+2019-02-21 18:00:13,587 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:00:13,587 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 18:00:13,776 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:00:13,777 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:00:38,016 - DEBUG -newRun.py : 689 :<module> - ******************************************START******************************************
+2019-02-21 18:00:38,215 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:00:38,215 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 18:00:38,313 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:00:38,313 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:01:29,041 - DEBUG -newRun.py : 690 :<module> - ******************************************START******************************************
+2019-02-21 18:01:29,290 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:01:29,290 - INFO -newRun.py : 589 :runAll - 共获取1条用例
+2019-02-21 18:01:29,381 - INFO -newRun.py : 609 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:01:29,382 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:01:46,706 - DEBUG -newRun.py : 690 :<module> - ******************************************START******************************************
+2019-02-21 18:01:46,911 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:01:46,911 - INFO -newRun.py : 589 :runAll - 共获取1条用例
+2019-02-21 18:01:47,273 - INFO -newRun.py : 609 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:01:47,273 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:02:42,921 - DEBUG -newRun.py : 690 :<module> - ******************************************START******************************************
+2019-02-21 18:02:43,079 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:02:43,080 - INFO -newRun.py : 589 :runAll - 共获取1条用例
+2019-02-21 18:02:43,215 - INFO -newRun.py : 609 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:02:43,216 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:03:25,353 - DEBUG -newRun.py : 690 :<module> - ******************************************START******************************************
+2019-02-21 18:03:25,486 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:03:25,486 - INFO -newRun.py : 589 :runAll - 共获取1条用例
+2019-02-21 18:03:25,634 - INFO -newRun.py : 609 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:03:25,634 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:03:46,943 - DEBUG -newRun.py : 687 :<module> - ******************************************START******************************************
+2019-02-21 18:03:47,098 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:03:47,098 - INFO -newRun.py : 586 :runAll - 共获取1条用例
+2019-02-21 18:03:47,261 - INFO -newRun.py : 606 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:03:47,261 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:04:00,778 - DEBUG -newRun.py : 688 :<module> - ******************************************START******************************************
+2019-02-21 18:04:01,057 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:04:01,057 - INFO -newRun.py : 587 :runAll - 共获取1条用例
+2019-02-21 18:04:01,246 - INFO -newRun.py : 607 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:04:01,246 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:04:27,713 - DEBUG -newRun.py : 689 :<module> - ******************************************START******************************************
+2019-02-21 18:04:27,838 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:04:27,839 - INFO -newRun.py : 588 :runAll - 共获取1条用例
+2019-02-21 18:04:28,008 - INFO -newRun.py : 608 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:04:28,009 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:08:58,804 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:08:59,100 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:08:59,101 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:08:59,349 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:08:59,350 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:09:51,743 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:09:51,907 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:09:51,907 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:09:52,035 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:09:52,035 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:11:28,013 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:11:28,202 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:11:28,202 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:11:28,310 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:11:28,310 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:12:13,171 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:12:13,312 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:12:13,312 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:12:13,411 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:12:13,412 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:13:07,363 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:13:07,615 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:13:07,615 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:13:07,805 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:13:07,806 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:13:08,292 - INFO -newRun.py : 684 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.6秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:13:08,294 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:13:08,298 - DEBUG -newRun.py : 699 :<module> - ******************************************END******************************************
+2019-02-21 18:13:57,659 - DEBUG -newRun.py : 697 :<module> - ******************************************START******************************************
+2019-02-21 18:13:57,887 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:13:57,888 - INFO -newRun.py : 596 :runAll - 共获取1条用例
+2019-02-21 18:13:58,112 - INFO -newRun.py : 616 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:13:58,112 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:13:58,531 - INFO -newRun.py : 684 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.52秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:13:58,535 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:13:58,545 - DEBUG -newRun.py : 699 :<module> - ******************************************END******************************************
+2019-02-21 18:15:26,240 - DEBUG -newRun.py : 698 :<module> - ******************************************START******************************************
+2019-02-21 18:15:26,676 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:15:26,676 - INFO -newRun.py : 597 :runAll - 共获取1条用例
+2019-02-21 18:15:26,936 - INFO -newRun.py : 617 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:15:26,937 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:15:27,345 - INFO -newRun.py : 685 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.55秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:15:27,349 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:15:27,359 - DEBUG -newRun.py : 700 :<module> - ******************************************END******************************************
+2019-02-21 18:15:42,018 - DEBUG -newRun.py : 698 :<module> - ******************************************START******************************************
+2019-02-21 18:15:42,142 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:15:42,142 - INFO -newRun.py : 597 :runAll - 共获取1条用例
+2019-02-21 18:15:42,342 - INFO -newRun.py : 617 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:15:42,343 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:15:42,781 - INFO -newRun.py : 685 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.57秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:15:42,784 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:15:42,794 - DEBUG -newRun.py : 700 :<module> - ******************************************END******************************************
+2019-02-21 18:15:54,750 - DEBUG -newRun.py : 698 :<module> - ******************************************START******************************************
+2019-02-21 18:15:54,895 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:15:54,895 - INFO -newRun.py : 597 :runAll - 共获取1条用例
+2019-02-21 18:15:55,121 - INFO -newRun.py : 617 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:15:55,122 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:15:55,596 - INFO -newRun.py : 685 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.61秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:15:55,598 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:15:55,602 - DEBUG -newRun.py : 700 :<module> - ******************************************END******************************************
+2019-02-21 18:17:45,617 - DEBUG -newRun.py : 698 :<module> - ******************************************START******************************************
+2019-02-21 18:17:45,772 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:17:45,773 - INFO -newRun.py : 597 :runAll - 共获取1条用例
+2019-02-21 18:17:46,028 - INFO -newRun.py : 617 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:17:46,028 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:23:12,140 - DEBUG -newRun.py : 714 :<module> - ******************************************START******************************************
+2019-02-21 18:23:12,345 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:23:12,345 - INFO -newRun.py : 613 :runAll - 共获取1条用例
+2019-02-21 18:23:12,433 - INFO -newRun.py : 633 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:23:12,433 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:24:45,844 - DEBUG -newRun.py : 715 :<module> - ******************************************START******************************************
+2019-02-21 18:24:46,070 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:24:46,070 - INFO -newRun.py : 614 :runAll - 共获取1条用例
+2019-02-21 18:24:46,154 - INFO -newRun.py : 634 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:24:46,155 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:24:46,601 - INFO -newRun.py : 702 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.47秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:24:46,605 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:24:46,613 - DEBUG -newRun.py : 717 :<module> - ******************************************END******************************************
+2019-02-21 18:25:42,970 - DEBUG -newRun.py : 717 :<module> - ******************************************START******************************************
+2019-02-21 18:25:43,119 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:25:43,119 - INFO -newRun.py : 616 :runAll - 共获取1条用例
+2019-02-21 18:25:43,280 - INFO -newRun.py : 636 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:25:43,280 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:25:43,683 - INFO -newRun.py : 704 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.43秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:25:43,686 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:25:43,694 - DEBUG -newRun.py : 719 :<module> - ******************************************END******************************************
+2019-02-21 18:26:10,077 - DEBUG -newRun.py : 712 :<module> - ******************************************START******************************************
+2019-02-21 18:26:10,519 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:26:10,520 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:26:10,825 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:26:10,826 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:26:11,328 - INFO -newRun.py : 699 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.65秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:26:11,330 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:26:11,337 - DEBUG -newRun.py : 714 :<module> - ******************************************END******************************************
+2019-02-21 18:27:34,074 - DEBUG -newRun.py : 714 :<module> - ******************************************START******************************************
+2019-02-21 18:27:34,244 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:27:34,245 - INFO -newRun.py : 613 :runAll - 共获取1条用例
+2019-02-21 18:27:34,395 - INFO -newRun.py : 633 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:27:34,396 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:27:34,994 - INFO -newRun.py : 701 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.56秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:27:34,998 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:27:35,008 - DEBUG -newRun.py : 716 :<module> - ******************************************END******************************************
+2019-02-21 18:28:18,122 - DEBUG -newRun.py : 714 :<module> - ******************************************START******************************************
+2019-02-21 18:28:18,276 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:28:18,276 - INFO -newRun.py : 613 :runAll - 共获取1条用例
+2019-02-21 18:28:18,523 - INFO -newRun.py : 633 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:28:18,523 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:28:19,089 - INFO -newRun.py : 701 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.64秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:28:19,091 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:28:19,098 - DEBUG -newRun.py : 716 :<module> - ******************************************END******************************************
+2019-02-21 18:28:49,235 - DEBUG -newRun.py : 714 :<module> - ******************************************START******************************************
+2019-02-21 18:28:49,403 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:28:49,404 - INFO -newRun.py : 613 :runAll - 共获取1条用例
+2019-02-21 18:28:49,721 - INFO -newRun.py : 633 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:28:49,721 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:28:50,255 - INFO -newRun.py : 701 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.67秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-02-21 18:28:50,259 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:28:50,268 - DEBUG -newRun.py : 716 :<module> - ******************************************END******************************************
+2019-02-21 18:29:19,513 - DEBUG -newRun.py : 714 :<module> - ******************************************START******************************************
+2019-02-21 18:29:19,695 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:29:19,695 - INFO -newRun.py : 613 :runAll - 共获取1条用例
+2019-02-21 18:29:19,913 - INFO -newRun.py : 633 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:29:19,914 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:29:20,370 - INFO -newRun.py : 701 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.6秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:29:20,372 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:29:20,379 - DEBUG -newRun.py : 716 :<module> - ******************************************END******************************************
+2019-02-21 18:30:12,590 - DEBUG -newRun.py : 711 :<module> - ******************************************START******************************************
+2019-02-21 18:30:12,845 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:30:12,845 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:30:12,982 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:30:12,982 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:30:13,505 - INFO -newRun.py : 698 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.51秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:30:13,508 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:30:13,518 - DEBUG -newRun.py : 713 :<module> - ******************************************END******************************************
+2019-02-21 18:30:35,936 - DEBUG -newRun.py : 711 :<module> - ******************************************START******************************************
+2019-02-21 18:30:36,139 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:30:36,140 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:30:36,280 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:30:36,281 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:30:36,757 - INFO -newRun.py : 698 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.44秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:30:36,760 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:30:36,770 - DEBUG -newRun.py : 713 :<module> - ******************************************END******************************************
+2019-02-21 18:31:16,277 - DEBUG -newRun.py : 711 :<module> - ******************************************START******************************************
+2019-02-21 18:31:16,418 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:31:16,418 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:31:16,545 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:31:16,545 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:31:17,045 - INFO -newRun.py : 698 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.54秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:31:17,048 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:31:17,053 - DEBUG -newRun.py : 713 :<module> - ******************************************END******************************************
+2019-02-21 18:31:30,582 - DEBUG -newRun.py : 711 :<module> - ******************************************START******************************************
+2019-02-21 18:31:30,739 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:31:30,739 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:31:30,938 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:31:30,939 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:31:31,296 - INFO -newRun.py : 698 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.49秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:31:31,298 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:31:31,302 - DEBUG -newRun.py : 713 :<module> - ******************************************END******************************************
+2019-02-21 18:32:15,214 - DEBUG -newRun.py : 711 :<module> - ******************************************START******************************************
+2019-02-21 18:32:15,340 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:32:15,341 - INFO -newRun.py : 611 :runAll - 共获取1条用例
+2019-02-21 18:32:15,458 - INFO -newRun.py : 631 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:32:15,459 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:32:15,860 - INFO -newRun.py : 698 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.45秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:32:15,862 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:32:15,865 - DEBUG -newRun.py : 713 :<module> - ******************************************END******************************************
+2019-02-21 18:34:14,718 - DEBUG -newRun.py : 644 :<module> - ******************************************START******************************************
+2019-02-21 18:34:14,894 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-02-21 18:34:14,894 - INFO -newRun.py : 544 :runAll - 共获取1条用例
+2019-02-21 18:34:15,053 - INFO -newRun.py : 564 :runAll - 正在执行caseId=8的用例
+2019-02-21 18:34:15,054 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a4af5b1e6771431c91037fa829813551;ln=1;lu=51229778'}
+2019-02-21 18:34:15,212 - ERROR -newRun.py : 487 :check - Expecting value: line 1 column 1 (char 0)
+2019-02-21 18:34:15,514 - INFO -newRun.py : 631 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时0.42秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-02-21 18:34:15,516 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-21 18:34:15,522 - DEBUG -newRun.py : 646 :<module> - ******************************************END******************************************

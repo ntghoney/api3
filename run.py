@@ -13,8 +13,9 @@ from common.report import get_now
 import json
 from common.parseConfig import ParseConfig, setPath
 import string
+import logging
 
-log = Log()
+log = Log().getLog()
 pc = ParseConfig()
 server_database = get_base_info(pc.get_info("ServerDatabase"))
 con_server = ConMysql(server_database)  # 服务器数据库链接
@@ -130,10 +131,11 @@ def run():
     # 获取所有用例
     cases = HandleCase().get_cases()
     for case in cases:
+
         # 将用例存入数据库临时保存
         con.insert_data("testcase", **case)
         # 将接口数据插入数据库apiInfo表中暂时保存
-        apiInfo = {"apiId": int(case["apiId"]), "apiHost": case["apiHost"], "apiParams": case["params"],
+        apiInfo = {"apiId": int(case["apiId"]), "apiHost": case["apiHost"], "apiParams": case["apiParams"],
                    "method": case["method"], "relatedApi": case["relatedApi"], "relatedParams": case["relatedParams"]}
         # 如果数据库中不存在apiId的接口，则插入
         if not con.query_all("select * from apiInfo  where apiId={}".format(apiInfo["apiId"])):
@@ -145,11 +147,12 @@ def run():
         relatedApi = case["relatedApi"]
         # relatedParams = case["relatedParams"]
         cid = case["caseId"]
+        log.info("正在执行第{}条用例".format(cid))
         describe = str(case["caseDescribe"])
         host = str(case["apiHost"])
         checkPints = case["expect"]
         method = str(case["method"])
-        params = str(case["params"])
+        params = str(case["apiParams"])
         headers = case["apiHeaders"]
         sqlStatement = str(case["sqlStatement"])
         databaseExpect = case["databaseExpect"]
@@ -179,9 +182,9 @@ def run():
         else:
             result["databaseResult"] = " "
         if checkPints:
-            result["except"] = str(checkPints)
+            result["expect"] = str(checkPints)
         else:
-            result["except"] = ""
+            result["expect"] = ""
         # 先获得用例执行时相关联的接口信息
         while True:
             if relatedApi is not None:

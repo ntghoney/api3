@@ -3,8 +3,8 @@
 @File  : httputils.py
 @Date  : 2019/1/15/015 17:04
 '''
-import requests, json
-from common.config import TESTDEV
+import requests
+from config.config import TESTDEV
 
 
 class Http(object):

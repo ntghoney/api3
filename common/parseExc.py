@@ -14,7 +14,7 @@ class PaserExc(object):
     """
 
     def __init__(self, path, sheetIndex):
-        self.log = Log()
+        self.log = Log().getLog()
         if os.path.isfile(path):
             if os.path.exists(path):
                 self.workbook = xlrd.open_workbook(path)
@@ -32,6 +32,8 @@ class PaserExc(object):
     # 获得总列数
     def get_ncols(self):
         return self.sheet.ncols
+
+
 
     # 按行获得所有数据
     def get_row(self):

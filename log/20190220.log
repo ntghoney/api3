@@ -1,0 +1,723 @@
+2019-02-20 10:18:52,715 - DEBUG -newRun.py : 633 :<module> - ******************************************START******************************************
+2019-02-20 10:18:52,932 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple.xlsx
+2019-02-20 10:18:52,940 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 10:18:52,940 - INFO -newRun.py : 534 :runAll - 共获取5条用例
+2019-02-20 10:18:53,744 - INFO -newRun.py : 554 :runAll - 正在执行caseId=1的用例
+2019-02-20 10:18:53,744 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 10:18:53,920 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->3db202f7fbee4e779f42ef306db0cc54
+2019-02-20 10:18:54,035 - INFO -newRun.py : 554 :runAll - 正在执行caseId=2的用例
+2019-02-20 10:18:54,035 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=3db202f7fbee4e779f42ef306db0cc54'}
+2019-02-20 10:18:54,351 - INFO -newRun.py : 554 :runAll - 正在执行caseId=3的用例
+2019-02-20 10:18:54,351 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=3db202f7fbee4e779f42ef306db0cc54'}
+2019-02-20 10:18:54,619 - INFO -newRun.py : 554 :runAll - 正在执行caseId=4的用例
+2019-02-20 10:18:54,619 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 10:18:54,778 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->e40c3bd43363421c8dd2e7faceb79447
+2019-02-20 10:18:54,778 - ERROR -newRun.py : 477 :check - Expecting value: line 1 column 1 (char 0)
+2019-02-20 10:18:54,884 - INFO -newRun.py : 554 :runAll - 正在执行caseId=5的用例
+2019-02-20 10:18:54,884 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151', 'content-type': 'application/json'}
+2019-02-20 10:18:55,120 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->b401b23cb54f49b881638e3a99fb95b7
+2019-02-20 10:18:55,297 - INFO -newRun.py : 619 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.27秒，共执行用例：5条，成功：2条，失败：2条，阻塞：1条
+2019-02-20 10:18:55,301 - INFO -report.py : 149 :get_report - 正在写入用例执行情况
+2019-02-20 10:18:55,318 - DEBUG -newRun.py : 635 :<module> - ******************************************END******************************************
+2019-02-20 11:09:37,805 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:09:37,980 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple.xlsx
+2019-02-20 11:09:37,985 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:09:37,985 - INFO -newRun.py : 540 :runAll - 共获取5条用例
+2019-02-20 11:09:38,872 - INFO -newRun.py : 560 :runAll - 正在执行caseId=1的用例
+2019-02-20 11:09:38,872 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:09:39,067 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=091be91c78d441eb85ef9d730ee72df5; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, lu=156; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:09:39,165 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:09:39,165 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=091be91c78d441eb85ef9d730ee72df5; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, lu=156; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:09:39,531 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:09:39,532 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=091be91c78d441eb85ef9d730ee72df5; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, lu=156; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:09:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:09:39,811 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:09:39,811 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:09:39,950 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=cf6e23a7d7164047b96c83df4d0b8e43; Expires=Thu, 20-Feb-2020 03:09:39 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:09:39,951 - ERROR -newRun.py : 483 :check - Expecting value: line 1 column 1 (char 0)
+2019-02-20 11:09:40,047 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:09:40,048 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151', 'content-type': 'application/json'}
+2019-02-20 11:09:40,193 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=97509928ac3e477e9c75bb49fb9b5799; Expires=Thu, 20-Feb-2020 03:09:39 GMT; Max-Age=31536000; Path=/, lu=157; Expires=Thu, 20-Feb-2020 03:09:39 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:09:39 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:09:40,322 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.27秒，共执行用例：5条，成功：2条，失败：2条，阻塞：1条
+2019-02-20 11:09:40,326 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:09:40,341 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 11:12:17,479 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:12:17,630 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:12:17,631 - INFO -newRun.py : 540 :runAll - 共获取5条用例
+2019-02-20 11:12:18,485 - INFO -newRun.py : 560 :runAll - 正在执行caseId=1的用例
+2019-02-20 11:12:18,486 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:12:18,664 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=ac20271a1d40442abb34374745922fbb; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/, lu=158; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:12:18,764 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:12:18,765 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=ac20271a1d40442abb34374745922fbb; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/, lu=158; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:12:19,020 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:12:19,172 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:12:19,343 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=833209d415424164b0f314128f499ede; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:12:19,439 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:12:19,439 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=833209d415424164b0f314128f499ede; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:12:19,702 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:12:19,703 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=833209d415424164b0f314128f499ede; Expires=Thu, 20-Feb-2020 03:12:18 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:12:19,886 - INFO -newRun.py : 373 :excute_case - headers信息写入配置文件成功--->DIS4=833209d415424164b0f314128f499ede; Expires=Thu, 20-Feb-2020 03:12:19 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:12:20,172 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.48秒，共执行用例：5条，成功：2条，失败：2条，阻塞：1条
+2019-02-20 11:12:20,176 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:12:20,194 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 11:13:36,841 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:13:37,006 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:13:37,007 - INFO -newRun.py : 540 :runAll - 共获取5条用例
+2019-02-20 11:13:37,591 - INFO -newRun.py : 560 :runAll - 正在执行caseId=1的用例
+2019-02-20 11:13:37,592 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:13:37,780 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=ff4180fb232d4a8e979344157535e86e; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/, lu=159; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:13:37,898 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:13:37,955 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=ff4180fb232d4a8e979344157535e86e; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/, lu=159; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:13:37 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:13:38,376 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:13:38,397 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:13:38,616 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=b63e595685634990a56235483190b30c; Expires=Thu, 20-Feb-2020 03:13:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:13:38,718 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:13:38,718 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=b63e595685634990a56235483190b30c; Expires=Thu, 20-Feb-2020 03:13:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:13:39,019 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:13:39,020 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=b63e595685634990a56235483190b30c; Expires=Thu, 20-Feb-2020 03:13:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:13:39,226 - INFO -newRun.py : 373 :excute_case - headers信息写入配置文件成功--->DIS4=b63e595685634990a56235483190b30c; Expires=Thu, 20-Feb-2020 03:13:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:13:39,939 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.77秒，共执行用例：5条，成功：2条，失败：2条，阻塞：1条
+2019-02-20 11:13:39,943 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:13:39,960 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 11:14:48,485 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:14:48,687 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:14:48,687 - INFO -newRun.py : 540 :runAll - 共获取5条用例
+2019-02-20 11:14:49,988 - INFO -newRun.py : 560 :runAll - 正在执行caseId=1的用例
+2019-02-20 11:14:49,988 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:14:50,196 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=eccb7117905f452a833246abbcc6d08f; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/, lu=160; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:14:50,273 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:14:50,353 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=eccb7117905f452a833246abbcc6d08f; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/, lu=160; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 03:14:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:14:50,751 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:14:50,786 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:14:51,000 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=1c5c5e3d68574223a2d537e97af8a720; Expires=Thu, 20-Feb-2020 03:14:50 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:14:51,101 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:14:51,101 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=1c5c5e3d68574223a2d537e97af8a720; Expires=Thu, 20-Feb-2020 03:14:50 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:14:51,376 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:14:51,377 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=1c5c5e3d68574223a2d537e97af8a720; Expires=Thu, 20-Feb-2020 03:14:50 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:14:51,566 - INFO -newRun.py : 373 :excute_case - headers信息写入配置文件成功--->DIS4=1c5c5e3d68574223a2d537e97af8a720; Expires=Thu, 20-Feb-2020 03:14:51 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:14:52,026 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时3.13秒，共执行用例：5条，成功：2条，失败：2条，阻塞：1条
+2019-02-20 11:14:52,029 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:14:52,046 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 11:16:49,213 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:16:49,374 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:16:49,375 - INFO -newRun.py : 540 :runAll - 共获取4条用例
+2019-02-20 11:16:50,083 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:16:50,105 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=1c5c5e3d68574223a2d537e97af8a720; Expires=Thu, 20-Feb-2020 03:14:51 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:16:50,275 - ERROR -newRun.py : 483 :check - Expecting value: line 1 column 1 (char 0)
+2019-02-20 11:16:50,344 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:16:50,413 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:16:50,589 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=7fcf2a98b39c4e79907c5b35d880456e; Expires=Thu, 20-Feb-2020 03:16:50 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:16:50,708 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:16:50,709 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=7fcf2a98b39c4e79907c5b35d880456e; Expires=Thu, 20-Feb-2020 03:16:50 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:16:51,161 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:16:51,162 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=7fcf2a98b39c4e79907c5b35d880456e; Expires=Thu, 20-Feb-2020 03:16:50 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:16:51,392 - INFO -newRun.py : 373 :excute_case - headers信息写入配置文件成功--->DIS4=7fcf2a98b39c4e79907c5b35d880456e; Expires=Thu, 20-Feb-2020 03:16:51 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:16:51,783 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.33秒，共执行用例：4条，成功：2条，失败：2条，阻塞：0条
+2019-02-20 11:16:51,787 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:16:51,800 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 11:17:22,834 - DEBUG -newRun.py : 640 :<module> - ******************************************START******************************************
+2019-02-20 11:17:23,030 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 11:17:23,031 - INFO -newRun.py : 540 :runAll - 共获取4条用例
+2019-02-20 11:17:23,610 - INFO -newRun.py : 560 :runAll - 正在执行caseId=2的用例
+2019-02-20 11:17:23,631 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=7fcf2a98b39c4e79907c5b35d880456e; Expires=Thu, 20-Feb-2020 03:16:51 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:17:23,923 - INFO -newRun.py : 560 :runAll - 正在执行caseId=3的用例
+2019-02-20 11:17:23,947 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 11:17:24,132 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=809551daf273495787e5e7058c265938; Expires=Thu, 20-Feb-2020 03:17:23 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:17:24,196 - INFO -newRun.py : 560 :runAll - 正在执行caseId=4的用例
+2019-02-20 11:17:24,196 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=809551daf273495787e5e7058c265938; Expires=Thu, 20-Feb-2020 03:17:23 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:17:24,722 - INFO -newRun.py : 560 :runAll - 正在执行caseId=5的用例
+2019-02-20 11:17:24,722 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=809551daf273495787e5e7058c265938; Expires=Thu, 20-Feb-2020 03:17:23 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 11:17:25,017 - INFO -newRun.py : 373 :excute_case - headers信息写入配置文件成功--->DIS4=809551daf273495787e5e7058c265938; Expires=Thu, 20-Feb-2020 03:17:24 GMT; Max-Age=31536000; Path=/
+2019-02-20 11:17:25,335 - INFO -newRun.py : 625 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.19秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 11:17:25,339 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 11:17:25,353 - DEBUG -newRun.py : 642 :<module> - ******************************************END******************************************
+2019-02-20 13:45:52,948 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 13:45:53,132 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 13:45:53,133 - INFO -newRun.py : 549 :runAll - 共获取4条用例
+2019-02-20 13:45:53,597 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 13:45:53,651 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=809551daf273495787e5e7058c265938; Expires=Thu, 20-Feb-2020 03:17:24 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:45:54,018 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 13:45:54,035 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 13:45:54,194 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=0dfc9ad58ee848c88728b7712d7adbe4; Expires=Thu, 20-Feb-2020 05:45:53 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:45:54,255 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 13:45:54,256 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=0dfc9ad58ee848c88728b7712d7adbe4; Expires=Thu, 20-Feb-2020 05:45:53 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:45:54,575 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 13:45:54,576 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=0dfc9ad58ee848c88728b7712d7adbe4; Expires=Thu, 20-Feb-2020 05:45:53 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:45:54,949 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=0dfc9ad58ee848c88728b7712d7adbe4; Expires=Thu, 20-Feb-2020 05:45:54 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:45:55,301 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.09秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 13:45:55,302 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 13:46:02,013 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 13:46:02,256 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 13:46:02,257 - INFO -newRun.py : 549 :runAll - 共获取4条用例
+2019-02-20 13:46:02,710 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 13:46:02,732 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=0dfc9ad58ee848c88728b7712d7adbe4; Expires=Thu, 20-Feb-2020 05:45:54 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:46:03,010 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 13:46:03,086 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 13:46:03,304 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=630c33bbb0764b7bad37e2eaa734d675; Expires=Thu, 20-Feb-2020 05:46:02 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:46:03,411 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 13:46:03,412 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=630c33bbb0764b7bad37e2eaa734d675; Expires=Thu, 20-Feb-2020 05:46:02 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:46:03,714 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 13:46:03,715 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=630c33bbb0764b7bad37e2eaa734d675; Expires=Thu, 20-Feb-2020 05:46:02 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:46:03,893 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=630c33bbb0764b7bad37e2eaa734d675; Expires=Thu, 20-Feb-2020 05:46:03 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:46:04,206 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时1.87秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 13:46:04,209 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 13:46:04,223 - DEBUG -newRun.py : 651 :<module> - ******************************************END******************************************
+2019-02-20 13:48:35,260 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 13:48:35,432 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple.xlsx
+2019-02-20 13:48:35,435 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 13:48:35,435 - INFO -newRun.py : 549 :runAll - 共获取9条用例
+2019-02-20 13:48:36,792 - INFO -newRun.py : 569 :runAll - 正在执行caseId=1的用例
+2019-02-20 13:48:36,793 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 13:48:36,981 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=e788065736f84ba881910e371fa37ff6; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, lu=161; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:48:37,051 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 13:48:37,052 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=e788065736f84ba881910e371fa37ff6; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, lu=161; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:48:37,361 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 13:48:37,361 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=e788065736f84ba881910e371fa37ff6; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, lu=161; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:48:37,552 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 13:48:37,552 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 13:48:37,675 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=fe18b04231b542dc9720c84f87aaeb08; Expires=Thu, 20-Feb-2020 05:48:36 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:48:37,676 - ERROR -newRun.py : 492 :check - Expecting value: line 1 column 1 (char 0)
+2019-02-20 13:48:37,744 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 13:48:37,745 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151', 'content-type': 'application/json'}
+2019-02-20 13:48:37,910 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=5f92d8f7db034b54ab61e71a00943cfd; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/, lu=162; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:48:37,978 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 13:48:38,009 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5f92d8f7db034b54ab61e71a00943cfd; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/, lu=162; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:48:38,190 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 13:48:38,223 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 13:48:38,345 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=285cd348284e4474b244c5d4314bb99c; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/
+2019-02-20 13:48:38,413 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 13:48:38,413 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=285cd348284e4474b244c5d4314bb99c; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:48:38,590 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 13:48:38,591 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=285cd348284e4474b244c5d4314bb99c; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 13:48:39,020 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时3.46秒，共执行用例：9条，成功：4条，失败：3条，阻塞：2条
+2019-02-20 13:48:39,023 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 13:48:39,044 - DEBUG -newRun.py : 651 :<module> - ******************************************END******************************************
+2019-02-20 14:01:26,988 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 14:01:27,143 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:01:27,144 - INFO -newRun.py : 549 :runAll - 共获取4条用例
+2019-02-20 14:01:27,560 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:01:27,612 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=285cd348284e4474b244c5d4314bb99c; Expires=Thu, 20-Feb-2020 05:48:37 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:01:28,048 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:01:28,069 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:01:28,258 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=b81a55bdd0cf4f008a4896eae39e57f0; Expires=Thu, 20-Feb-2020 06:01:27 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:01:28,428 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:01:28,429 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=b81a55bdd0cf4f008a4896eae39e57f0; Expires=Thu, 20-Feb-2020 06:01:27 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:01:28,617 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:01:28,618 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=b81a55bdd0cf4f008a4896eae39e57f0; Expires=Thu, 20-Feb-2020 06:01:27 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:01:28,906 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=b81a55bdd0cf4f008a4896eae39e57f0; Expires=Thu, 20-Feb-2020 06:01:28 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:01:29,400 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp01.ops.gaoshou.me，共耗时2.01秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 14:01:29,404 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:01:29,418 - DEBUG -newRun.py : 651 :<module> - ******************************************END******************************************
+2019-02-20 14:02:37,231 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 14:02:37,515 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:02:37,515 - INFO -newRun.py : 549 :runAll - 共获取4条用例
+2019-02-20 14:02:38,398 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:02:38,454 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=b81a55bdd0cf4f008a4896eae39e57f0; Expires=Thu, 20-Feb-2020 06:01:28 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:02:38,794 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:02:38,828 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:02:38,938 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=5bacacf8c7b6464bb75316e4fdcc6145; Expires=Thu, 20-Feb-2020 06:02:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:02:39,084 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:02:39,084 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5bacacf8c7b6464bb75316e4fdcc6145; Expires=Thu, 20-Feb-2020 06:02:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:02:39,338 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:02:39,339 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5bacacf8c7b6464bb75316e4fdcc6145; Expires=Thu, 20-Feb-2020 06:02:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:02:39,536 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=5bacacf8c7b6464bb75316e4fdcc6145; Expires=Thu, 20-Feb-2020 06:02:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:02:39,988 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.27秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 14:02:39,991 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:02:40,005 - DEBUG -newRun.py : 651 :<module> - ******************************************END******************************************
+2019-02-20 14:11:58,979 - DEBUG -newRun.py : 651 :<module> - ******************************************START******************************************
+2019-02-20 14:11:59,303 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:11:59,304 - INFO -newRun.py : 551 :runAll - 共获取4条用例
+2019-02-20 14:12:00,132 - INFO -newRun.py : 571 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:12:00,262 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5bacacf8c7b6464bb75316e4fdcc6145; Expires=Thu, 20-Feb-2020 06:02:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:00,839 - INFO -newRun.py : 571 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:12:00,856 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:12:00,977 - INFO -newRun.py : 255 :request_api - headers信息写入配置文件成功--->DIS4=5058a3fa21ec449799339e5be6bf3e73; Expires=Thu, 20-Feb-2020 06:12:00 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:12:01,093 - INFO -newRun.py : 571 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:12:01,094 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5058a3fa21ec449799339e5be6bf3e73; Expires=Thu, 20-Feb-2020 06:12:00 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:01,375 - INFO -newRun.py : 571 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:12:01,376 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5058a3fa21ec449799339e5be6bf3e73; Expires=Thu, 20-Feb-2020 06:12:00 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:01,658 - INFO -newRun.py : 384 :excute_case - headers信息写入配置文件成功--->DIS4=5058a3fa21ec449799339e5be6bf3e73; Expires=Thu, 20-Feb-2020 06:12:00 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:12:02,060 - INFO -newRun.py : 636 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.63秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 14:12:02,064 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:12:02,078 - DEBUG -newRun.py : 653 :<module> - ******************************************END******************************************
+2019-02-20 14:12:48,504 - DEBUG -newRun.py : 651 :<module> - ******************************************START******************************************
+2019-02-20 14:12:48,765 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:12:48,766 - INFO -newRun.py : 551 :runAll - 共获取4条用例
+2019-02-20 14:12:49,361 - INFO -newRun.py : 571 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:12:49,381 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5058a3fa21ec449799339e5be6bf3e73; Expires=Thu, 20-Feb-2020 06:12:00 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:49,645 - INFO -newRun.py : 571 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:12:49,664 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:12:50,024 - INFO -newRun.py : 255 :request_api - headers信息写入配置文件成功--->DIS4=572324075f41436eb23baab8372c754e; Expires=Thu, 20-Feb-2020 06:12:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:12:50,166 - INFO -newRun.py : 571 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:12:50,167 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=572324075f41436eb23baab8372c754e; Expires=Thu, 20-Feb-2020 06:12:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:50,596 - INFO -newRun.py : 571 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:12:50,596 - INFO -newRun.py : 301 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=572324075f41436eb23baab8372c754e; Expires=Thu, 20-Feb-2020 06:12:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:12:50,884 - INFO -newRun.py : 384 :excute_case - headers信息写入配置文件成功--->DIS4=572324075f41436eb23baab8372c754e; Expires=Thu, 20-Feb-2020 06:12:50 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:12:51,252 - INFO -newRun.py : 636 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.42秒，共执行用例：4条，成功：2条，失败：1条，阻塞：1条
+2019-02-20 14:12:51,254 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:12:51,263 - DEBUG -newRun.py : 653 :<module> - ******************************************END******************************************
+2019-02-20 14:15:54,840 - DEBUG -newRun.py : 649 :<module> - ******************************************START******************************************
+2019-02-20 14:15:55,127 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:15:55,128 - INFO -newRun.py : 549 :runAll - 共获取5条用例
+2019-02-20 14:15:55,660 - INFO -newRun.py : 569 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:15:55,661 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:15:55,883 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=284409209e09405aa08ffabf3b31a303; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/, lu=51229748; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:15:55,993 - INFO -newRun.py : 569 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:15:56,012 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=284409209e09405aa08ffabf3b31a303; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/, lu=51229748; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:15:56,314 - INFO -newRun.py : 569 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:15:56,333 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:15:56,449 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=c28c6b5f59104254869e220a6d50ec28; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:15:56,598 - INFO -newRun.py : 569 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:15:56,598 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=c28c6b5f59104254869e220a6d50ec28; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:15:56,879 - INFO -newRun.py : 569 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:15:56,880 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=c28c6b5f59104254869e220a6d50ec28; Expires=Thu, 20-Feb-2020 06:15:55 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:15:57,148 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=c28c6b5f59104254869e220a6d50ec28; Expires=Thu, 20-Feb-2020 06:15:56 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:15:57,574 - INFO -newRun.py : 634 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.32秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:15:57,576 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:15:57,586 - DEBUG -newRun.py : 651 :<module> - ******************************************END******************************************
+2019-02-20 14:24:53,347 - DEBUG -newRun.py : 650 :<module> - ******************************************START******************************************
+2019-02-20 14:24:53,566 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:24:53,567 - INFO -newRun.py : 550 :runAll - 共获取5条用例
+2019-02-20 14:24:54,903 - INFO -newRun.py : 570 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:24:54,904 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:24:55,121 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=5c76fbc843774d67936de2e982c2e2c4; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/, lu=51229749; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:24:55,212 - INFO -newRun.py : 570 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:24:55,333 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5c76fbc843774d67936de2e982c2e2c4; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/, lu=51229749; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:24:55,581 - INFO -newRun.py : 570 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:24:55,633 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:24:55,787 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=6e350d84cfb942ef91e126884f8b2eed; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:24:55,869 - INFO -newRun.py : 570 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:24:55,870 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=6e350d84cfb942ef91e126884f8b2eed; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:24:56,088 - INFO -newRun.py : 570 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:24:56,089 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=6e350d84cfb942ef91e126884f8b2eed; Expires=Thu, 20-Feb-2020 06:24:54 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:24:56,265 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=6e350d84cfb942ef91e126884f8b2eed; Expires=Thu, 20-Feb-2020 06:24:55 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:24:56,598 - INFO -newRun.py : 635 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.86秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:24:56,602 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:25:55,108 - DEBUG -newRun.py : 650 :<module> - ******************************************START******************************************
+2019-02-20 14:25:55,332 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:25:55,332 - INFO -newRun.py : 550 :runAll - 共获取5条用例
+2019-02-20 14:25:56,213 - INFO -newRun.py : 570 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:25:56,213 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:25:56,371 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=c7148aa4b59d4808bae0eec7b3a54ffa; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:25:56,458 - INFO -newRun.py : 570 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:25:56,495 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=c7148aa4b59d4808bae0eec7b3a54ffa; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:25:55 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:25:56,722 - INFO -newRun.py : 570 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:25:56,765 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:25:56,885 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=9260b2fc9fed46bb9b7f99e5ae3ca853; Expires=Thu, 20-Feb-2020 06:25:56 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:25:56,957 - INFO -newRun.py : 570 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:25:56,957 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=9260b2fc9fed46bb9b7f99e5ae3ca853; Expires=Thu, 20-Feb-2020 06:25:56 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:25:57,394 - INFO -newRun.py : 570 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:25:57,394 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=9260b2fc9fed46bb9b7f99e5ae3ca853; Expires=Thu, 20-Feb-2020 06:25:56 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:25:57,554 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=9260b2fc9fed46bb9b7f99e5ae3ca853; Expires=Thu, 20-Feb-2020 06:25:56 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:25:57,827 - INFO -newRun.py : 635 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.38秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:25:57,831 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:25:57,848 - DEBUG -newRun.py : 652 :<module> - ******************************************END******************************************
+2019-02-20 14:38:41,016 - DEBUG -newRun.py : 650 :<module> - ******************************************START******************************************
+2019-02-20 14:38:41,297 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:38:41,298 - INFO -newRun.py : 550 :runAll - 共获取5条用例
+2019-02-20 14:38:41,813 - INFO -newRun.py : 570 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:38:41,813 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:38:41,993 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=ad2b0b91c5ab4f9593c3000257d68acc; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:38:42,094 - INFO -newRun.py : 570 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:38:42,148 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=ad2b0b91c5ab4f9593c3000257d68acc; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:38:42,461 - INFO -newRun.py : 570 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:38:42,480 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:38:42,624 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=d3b2cb34096248da937f056a0e183201; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:38:43,151 - INFO -newRun.py : 570 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:38:43,151 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=d3b2cb34096248da937f056a0e183201; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:38:43,450 - INFO -newRun.py : 570 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:38:43,451 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=d3b2cb34096248da937f056a0e183201; Expires=Thu, 20-Feb-2020 06:38:41 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:38:43,703 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=d3b2cb34096248da937f056a0e183201; Expires=Thu, 20-Feb-2020 06:38:42 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:38:44,001 - INFO -newRun.py : 635 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.62秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:38:44,005 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:38:44,016 - DEBUG -newRun.py : 652 :<module> - ******************************************END******************************************
+2019-02-20 14:40:48,593 - DEBUG -newRun.py : 650 :<module> - ******************************************START******************************************
+2019-02-20 14:40:48,794 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:40:48,795 - INFO -newRun.py : 550 :runAll - 共获取5条用例
+2019-02-20 14:40:49,437 - INFO -newRun.py : 570 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:40:49,437 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:40:49,612 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=a4465a6aa0384fccacb221b9e4bdc74c; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/, lu=51229752; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:40:49,709 - INFO -newRun.py : 570 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:40:49,836 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=a4465a6aa0384fccacb221b9e4bdc74c; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/, lu=51229752; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:40:48 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:40:50,072 - INFO -newRun.py : 570 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:40:50,142 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:40:50,323 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=8ce0fb49d2bb4795b9977ac47fc90ded; Expires=Thu, 20-Feb-2020 06:40:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:40:50,376 - INFO -newRun.py : 570 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:40:50,377 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=8ce0fb49d2bb4795b9977ac47fc90ded; Expires=Thu, 20-Feb-2020 06:40:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:40:50,661 - INFO -newRun.py : 570 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:40:50,662 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=8ce0fb49d2bb4795b9977ac47fc90ded; Expires=Thu, 20-Feb-2020 06:40:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:40:50,899 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=8ce0fb49d2bb4795b9977ac47fc90ded; Expires=Thu, 20-Feb-2020 06:40:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:40:51,545 - INFO -newRun.py : 635 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.6秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:40:51,549 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:40:51,564 - DEBUG -newRun.py : 652 :<module> - ******************************************END******************************************
+2019-02-20 14:55:19,279 - DEBUG -newRun.py : 650 :<module> - ******************************************START******************************************
+2019-02-20 14:55:19,405 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 14:55:19,405 - INFO -newRun.py : 550 :runAll - 共获取5条用例
+2019-02-20 14:55:19,912 - INFO -newRun.py : 570 :runAll - 正在执行caseId=1的用例
+2019-02-20 14:55:19,912 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:55:20,072 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=5600488029db45ed87c46bbb870c7f93; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, lu=51229753; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:55:20,242 - INFO -newRun.py : 570 :runAll - 正在执行caseId=2的用例
+2019-02-20 14:55:20,401 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=5600488029db45ed87c46bbb870c7f93; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, lu=51229753; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:55:20,673 - INFO -newRun.py : 570 :runAll - 正在执行caseId=3的用例
+2019-02-20 14:55:20,691 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 14:55:20,858 - INFO -newRun.py : 253 :request_api - headers信息写入配置文件成功--->DIS4=f1c7b2dfbbf64581bb27e5b9c0e2360c; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, DIS4=fd73b861b925410896a8d04c6d98888e; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:55:20,978 - INFO -newRun.py : 570 :runAll - 正在执行caseId=4的用例
+2019-02-20 14:55:20,979 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=f1c7b2dfbbf64581bb27e5b9c0e2360c; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, DIS4=fd73b861b925410896a8d04c6d98888e; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:55:21,300 - INFO -newRun.py : 570 :runAll - 正在执行caseId=5的用例
+2019-02-20 14:55:21,300 - INFO -newRun.py : 299 :excute_case - 此次接口请求的header信息为--->{'Accept': '*/*', 'Content-Type': 'application/json;charset=utf-8', 'cookie': 'DIS4=f1c7b2dfbbf64581bb27e5b9c0e2360c; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, DIS4=fd73b861b925410896a8d04c6d98888e; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 06:55:19 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 14:55:21,473 - INFO -newRun.py : 382 :excute_case - headers信息写入配置文件成功--->DIS4=f1c7b2dfbbf64581bb27e5b9c0e2360c; Expires=Thu, 20-Feb-2020 06:55:20 GMT; Max-Age=31536000; Path=/
+2019-02-20 14:55:21,918 - INFO -newRun.py : 635 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.38秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 14:55:21,921 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 14:55:21,933 - DEBUG -newRun.py : 652 :<module> - ******************************************END******************************************
+2019-02-20 15:05:38,754 - DEBUG -newRun.py : 647 :<module> - ******************************************START******************************************
+2019-02-20 15:05:38,905 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:05:38,905 - INFO -newRun.py : 547 :runAll - 共获取5条用例
+2019-02-20 15:05:39,689 - INFO -newRun.py : 567 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:05:39,690 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:05:39,868 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=c289c376b3b14bf182116069bdee559d; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/, lu=51229754; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:05:39,974 - INFO -newRun.py : 567 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:05:40,133 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=c289c376b3b14bf182116069bdee559d; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/, lu=51229754; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:05:38 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:05:40,380 - INFO -newRun.py : 567 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:05:40,411 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:05:40,601 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=0a81ae13d3834a78bb12bad3f1062ec2; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, DIS4=42488d728044421c9bf54f9777502036; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:05:40,717 - INFO -newRun.py : 567 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:05:40,718 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=0a81ae13d3834a78bb12bad3f1062ec2; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, DIS4=42488d728044421c9bf54f9777502036; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:05:41,014 - INFO -newRun.py : 567 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:05:41,015 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=0a81ae13d3834a78bb12bad3f1062ec2; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, DIS4=42488d728044421c9bf54f9777502036; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:05:39 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:05:41,200 - INFO -newRun.py : 379 :excute_case - headers信息写入配置文件成功--->DIS4=0a81ae13d3834a78bb12bad3f1062ec2; Expires=Thu, 20-Feb-2020 07:05:40 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:05:41,585 - INFO -newRun.py : 632 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.56秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 15:05:41,589 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:05:41,606 - DEBUG -newRun.py : 649 :<module> - ******************************************END******************************************
+2019-02-20 15:08:25,252 - DEBUG -newRun.py : 647 :<module> - ******************************************START******************************************
+2019-02-20 15:08:25,457 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:08:25,457 - INFO -newRun.py : 547 :runAll - 共获取5条用例
+2019-02-20 15:08:25,920 - INFO -newRun.py : 567 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:08:25,921 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:08:26,100 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=3858a28148ce406aa99fd4f09b0edc48; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, lu=51229755; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:08:26,146 - INFO -newRun.py : 567 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:08:26,196 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=3858a28148ce406aa99fd4f09b0edc48; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, lu=51229755; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:08:26,455 - INFO -newRun.py : 567 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:08:26,472 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:08:26,605 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=fb22eda4d9c74e6ea279ee0a1ab842f2; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, DIS4=cb0c7b09a71a40c0bf7b9f5baee9c5c8; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:08:26,710 - INFO -newRun.py : 567 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:08:26,710 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=fb22eda4d9c74e6ea279ee0a1ab842f2; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, DIS4=cb0c7b09a71a40c0bf7b9f5baee9c5c8; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:08:26,919 - INFO -newRun.py : 567 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:08:26,919 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=fb22eda4d9c74e6ea279ee0a1ab842f2; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, DIS4=cb0c7b09a71a40c0bf7b9f5baee9c5c8; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, lu=51229751; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:08:25 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:08:27,099 - INFO -newRun.py : 379 :excute_case - headers信息写入配置文件成功--->DIS4=fb22eda4d9c74e6ea279ee0a1ab842f2; Expires=Thu, 20-Feb-2020 07:08:26 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:08:27,536 - INFO -newRun.py : 632 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时1.85秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 15:08:27,539 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:08:27,549 - DEBUG -newRun.py : 649 :<module> - ******************************************END******************************************
+2019-02-20 15:09:09,659 - DEBUG -newRun.py : 647 :<module> - ******************************************START******************************************
+2019-02-20 15:09:09,847 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:09:09,848 - INFO -newRun.py : 547 :runAll - 共获取5条用例
+2019-02-20 15:09:10,851 - INFO -newRun.py : 567 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:09:10,852 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:09:11,052 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=f692da02092e4f0d9206f624e24bf5db; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, lu=51229756; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:11,125 - INFO -newRun.py : 567 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:09:11,240 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=f692da02092e4f0d9206f624e24bf5db; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, lu=51229756; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:11,442 - INFO -newRun.py : 567 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:09:11,551 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:09:11,728 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=6b7ea41d43774a77b07f22bafdcdd19c; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, DIS4=4abe7480d8764f219abb6dc265ed1330; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:11,809 - INFO -newRun.py : 567 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:09:11,809 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6b7ea41d43774a77b07f22bafdcdd19c; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, DIS4=4abe7480d8764f219abb6dc265ed1330; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:12,000 - INFO -newRun.py : 567 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:09:12,000 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6b7ea41d43774a77b07f22bafdcdd19c; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, DIS4=4abe7480d8764f219abb6dc265ed1330; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:10 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:12,157 - INFO -newRun.py : 379 :excute_case - headers信息写入配置文件成功--->DIS4=6b7ea41d43774a77b07f22bafdcdd19c; Expires=Thu, 20-Feb-2020 07:09:11 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:12,487 - INFO -newRun.py : 632 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.47秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 15:09:12,489 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:09:12,499 - DEBUG -newRun.py : 649 :<module> - ******************************************END******************************************
+2019-02-20 15:09:33,119 - DEBUG -newRun.py : 647 :<module> - ******************************************START******************************************
+2019-02-20 15:09:33,321 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:09:33,321 - INFO -newRun.py : 547 :runAll - 共获取5条用例
+2019-02-20 15:09:34,383 - INFO -newRun.py : 567 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:09:34,383 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:09:34,657 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=0c57806320de451bbf70780c9ea35bbd; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/, lu=51229757; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:34,739 - INFO -newRun.py : 567 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:09:34,790 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=0c57806320de451bbf70780c9ea35bbd; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/, lu=51229757; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:09:33 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:34,986 - INFO -newRun.py : 567 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:09:35,089 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:09:35,261 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=0884d87eb0894b3a81518e9756ee6aee; Expires=Thu, 20-Feb-2020 07:09:34 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:35,393 - INFO -newRun.py : 567 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:09:35,393 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=0884d87eb0894b3a81518e9756ee6aee; Expires=Thu, 20-Feb-2020 07:09:34 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:35,596 - INFO -newRun.py : 567 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:09:35,597 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=0884d87eb0894b3a81518e9756ee6aee; Expires=Thu, 20-Feb-2020 07:09:34 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:09:35,772 - INFO -newRun.py : 379 :excute_case - headers信息写入配置文件成功--->DIS4=0884d87eb0894b3a81518e9756ee6aee; Expires=Thu, 20-Feb-2020 07:09:34 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:09:36,135 - INFO -newRun.py : 632 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.68秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 15:09:36,136 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:09:36,143 - DEBUG -newRun.py : 649 :<module> - ******************************************END******************************************
+2019-02-20 15:12:48,354 - DEBUG -newRun.py : 647 :<module> - ******************************************START******************************************
+2019-02-20 15:12:48,676 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:12:48,676 - INFO -newRun.py : 547 :runAll - 共获取5条用例
+2019-02-20 15:12:49,600 - INFO -newRun.py : 567 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:12:49,601 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:12:49,774 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=60edfa91c82a4b00ab043fcb8641e792; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/, lu=51229758; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:12:49,868 - INFO -newRun.py : 567 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:12:49,899 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=60edfa91c82a4b00ab043fcb8641e792; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/, lu=51229758; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:12:48 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:12:50,099 - INFO -newRun.py : 567 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:12:50,190 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:12:50,353 - INFO -newRun.py : 250 :request_api - headers信息写入配置文件成功--->DIS4=bb151bf978454b16b6b44bb03a017022; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, DIS4=479ebf2457744c8897147039ca5fbce6; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:12:50,421 - INFO -newRun.py : 567 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:12:50,421 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=bb151bf978454b16b6b44bb03a017022; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, DIS4=479ebf2457744c8897147039ca5fbce6; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:12:50,627 - INFO -newRun.py : 567 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:12:50,627 - INFO -newRun.py : 296 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=bb151bf978454b16b6b44bb03a017022; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, DIS4=479ebf2457744c8897147039ca5fbce6; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, lu=51229750; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/, mu=; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Path=/, ln=1; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/'}
+2019-02-20 15:12:50,764 - INFO -newRun.py : 379 :excute_case - headers信息写入配置文件成功--->DIS4=bb151bf978454b16b6b44bb03a017022; Expires=Thu, 20-Feb-2020 07:12:49 GMT; Max-Age=31536000; Path=/
+2019-02-20 15:12:51,039 - INFO -newRun.py : 632 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.24秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 15:12:51,043 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:12:51,059 - DEBUG -newRun.py : 649 :<module> - ******************************************END******************************************
+2019-02-20 15:56:42,711 - DEBUG -newRun.py : 658 :<module> - ******************************************START******************************************
+2019-02-20 15:56:42,982 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 15:56:42,983 - INFO -newRun.py : 558 :runAll - 共获取5条用例
+2019-02-20 15:56:43,523 - INFO -newRun.py : 578 :runAll - 正在执行caseId=1的用例
+2019-02-20 15:56:43,523 - INFO -newRun.py : 306 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:56:43,682 - INFO -newRun.py : 260 :request_api - headers信息写入配置文件成功--->DIS4=cd1624d3046548a389449d10d83bf246;ln=1;lu=51229759
+2019-02-20 15:56:43,763 - INFO -newRun.py : 578 :runAll - 正在执行caseId=2的用例
+2019-02-20 15:56:43,940 - INFO -newRun.py : 306 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=cd1624d3046548a389449d10d83bf246;ln=1;lu=51229759'}
+2019-02-20 15:56:44,210 - INFO -newRun.py : 578 :runAll - 正在执行caseId=3的用例
+2019-02-20 15:56:44,332 - INFO -newRun.py : 306 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 15:56:44,531 - INFO -newRun.py : 260 :request_api - headers信息写入配置文件成功--->DIS4=48621f958a834317aa3940f486250652;ln=1;lu=51229750
+2019-02-20 15:56:44,628 - INFO -newRun.py : 578 :runAll - 正在执行caseId=4的用例
+2019-02-20 15:56:44,629 - INFO -newRun.py : 306 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=48621f958a834317aa3940f486250652;ln=1;lu=51229750'}
+2019-02-20 15:56:44,963 - INFO -newRun.py : 578 :runAll - 正在执行caseId=5的用例
+2019-02-20 15:56:44,964 - INFO -newRun.py : 306 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=48621f958a834317aa3940f486250652;ln=1;lu=51229750'}
+2019-02-20 15:56:45,163 - INFO -newRun.py : 390 :excute_case - headers信息写入配置文件成功--->DIS4=48621f958a834317aa3940f486250652
+2019-02-20 15:56:45,556 - INFO -newRun.py : 643 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.5秒，共执行用例：5条，成功：1条，失败：3条，阻塞：1条
+2019-02-20 15:56:45,558 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 15:56:45,570 - DEBUG -newRun.py : 660 :<module> - ******************************************END******************************************
+2019-02-20 16:24:54,859 - DEBUG -newRun.py : 651 :<module> - ******************************************START******************************************
+2019-02-20 16:24:55,030 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:24:55,030 - INFO -newRun.py : 551 :runAll - 共获取5条用例
+2019-02-20 16:24:56,133 - INFO -newRun.py : 571 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:24:56,133 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:24:56,308 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=acfc7955ec7646069aaed33212c3e340;ln=1;lu=51229760
+2019-02-20 16:24:56,396 - INFO -newRun.py : 571 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:24:56,520 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=acfc7955ec7646069aaed33212c3e340;ln=1;lu=51229760'}
+2019-02-20 16:24:56,802 - INFO -newRun.py : 571 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:24:57,008 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:24:57,187 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=7127647b8b1e4e8e9b2b656bade8b09c;ln=1;lu=51229750
+2019-02-20 16:24:57,287 - INFO -newRun.py : 571 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:24:57,288 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=7127647b8b1e4e8e9b2b656bade8b09c;ln=1;lu=51229750'}
+2019-02-20 16:24:57,832 - INFO -newRun.py : 571 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:24:57,833 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=7127647b8b1e4e8e9b2b656bade8b09c;ln=1;lu=51229750'}
+2019-02-20 16:26:09,001 - DEBUG -newRun.py : 651 :<module> - ******************************************START******************************************
+2019-02-20 16:26:09,221 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:26:09,221 - INFO -newRun.py : 551 :runAll - 共获取5条用例
+2019-02-20 16:26:10,164 - INFO -newRun.py : 571 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:26:10,164 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:26:10,351 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=aadf89386c7b45b7be7566e5b9ec7233;ln=1;lu=51229761
+2019-02-20 16:26:10,541 - INFO -newRun.py : 571 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:26:10,570 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=aadf89386c7b45b7be7566e5b9ec7233;ln=1;lu=51229761'}
+2019-02-20 16:26:10,948 - INFO -newRun.py : 571 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:26:11,100 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:26:11,304 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=a59195a7eb8b46adb8a06a661f551244;ln=1;lu=51229750
+2019-02-20 16:26:11,373 - INFO -newRun.py : 571 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:26:11,374 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a59195a7eb8b46adb8a06a661f551244;ln=1;lu=51229750'}
+2019-02-20 16:26:11,721 - INFO -newRun.py : 571 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:26:11,721 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a59195a7eb8b46adb8a06a661f551244;ln=1;lu=51229750'}
+2019-02-20 16:26:11,898 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=a59195a7eb8b46adb8a06a661f551244
+2019-02-20 16:26:12,207 - INFO -newRun.py : 636 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.86秒，共执行用例：5条，成功：1条，失败：3条，阻塞：1条
+2019-02-20 16:26:12,210 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:26:12,225 - DEBUG -newRun.py : 653 :<module> - ******************************************END******************************************
+2019-02-20 16:28:16,643 - DEBUG -newRun.py : 626 :<module> - ******************************************START******************************************
+2019-02-20 16:28:16,875 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:28:16,876 - INFO -newRun.py : 526 :runAll - 共获取5条用例
+2019-02-20 16:28:17,931 - INFO -newRun.py : 546 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:28:17,931 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:28:18,138 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=acf1d377462346f7b75449b1936f876d;ln=1;lu=51229762
+2019-02-20 16:28:18,288 - INFO -newRun.py : 546 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:28:18,362 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=acf1d377462346f7b75449b1936f876d;ln=1;lu=51229762'}
+2019-02-20 16:28:18,716 - INFO -newRun.py : 546 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:28:18,878 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:28:19,184 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=91b1d417f1bb46da839afd8cb30036dc
+2019-02-20 16:28:19,375 - INFO -newRun.py : 546 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:28:19,376 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=91b1d417f1bb46da839afd8cb30036dc'}
+2019-02-20 16:28:19,711 - INFO -newRun.py : 546 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:28:19,711 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=91b1d417f1bb46da839afd8cb30036dc'}
+2019-02-20 16:28:19,953 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=91b1d417f1bb46da839afd8cb30036dc
+2019-02-20 16:28:20,417 - INFO -newRun.py : 611 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时3.31秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:28:20,421 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:28:20,436 - DEBUG -newRun.py : 628 :<module> - ******************************************END******************************************
+2019-02-20 16:29:09,027 - DEBUG -newRun.py : 627 :<module> - ******************************************START******************************************
+2019-02-20 16:29:09,200 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:29:09,200 - INFO -newRun.py : 527 :runAll - 共获取5条用例
+2019-02-20 16:29:10,238 - INFO -newRun.py : 547 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:29:10,238 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:29:10,412 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=6b988e35f76c438a91268cd96dbca865;ln=1;lu=51229763
+2019-02-20 16:29:10,488 - INFO -newRun.py : 547 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:29:10,548 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6b988e35f76c438a91268cd96dbca865;ln=1;lu=51229763'}
+2019-02-20 16:29:10,838 - INFO -newRun.py : 547 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:29:10,889 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:29:11,033 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=228d147c4fc4466b979d635a50713af5
+2019-02-20 16:29:11,114 - INFO -newRun.py : 547 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:29:11,115 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=228d147c4fc4466b979d635a50713af5'}
+2019-02-20 16:29:11,352 - INFO -newRun.py : 547 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:29:11,353 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=228d147c4fc4466b979d635a50713af5'}
+2019-02-20 16:29:11,533 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=228d147c4fc4466b979d635a50713af5
+2019-02-20 16:29:11,865 - INFO -newRun.py : 612 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.51秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:29:11,868 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:29:11,883 - DEBUG -newRun.py : 629 :<module> - ******************************************END******************************************
+2019-02-20 16:29:46,873 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-20 16:29:47,050 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:29:47,051 - INFO -newRun.py : 528 :runAll - 共获取5条用例
+2019-02-20 16:29:48,125 - INFO -newRun.py : 548 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:29:48,126 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:29:48,308 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=195482c4978f4425894065b0baf0621a;ln=1;lu=51229764
+2019-02-20 16:29:48,406 - INFO -newRun.py : 548 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:29:48,424 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=195482c4978f4425894065b0baf0621a;ln=1;lu=51229764'}
+2019-02-20 16:29:48,717 - INFO -newRun.py : 548 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:29:48,735 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:29:48,850 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e24a5c0808c2433bb61a50536b2ea278
+2019-02-20 16:29:49,049 - INFO -newRun.py : 548 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:29:49,050 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e24a5c0808c2433bb61a50536b2ea278'}
+2019-02-20 16:29:49,302 - INFO -newRun.py : 548 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:29:49,303 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e24a5c0808c2433bb61a50536b2ea278'}
+2019-02-20 16:29:49,504 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e24a5c0808c2433bb61a50536b2ea278
+2019-02-20 16:29:49,947 - INFO -newRun.py : 613 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.64秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:29:49,951 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:29:49,966 - DEBUG -newRun.py : 630 :<module> - ******************************************END******************************************
+2019-02-20 16:30:34,921 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-20 16:30:35,061 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:30:35,062 - INFO -newRun.py : 528 :runAll - 共获取5条用例
+2019-02-20 16:30:36,180 - INFO -newRun.py : 548 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:30:36,181 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:30:36,365 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=602e7cab1607406fb36483163c76c4be;ln=1;lu=51229765
+2019-02-20 16:30:36,473 - INFO -newRun.py : 548 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:30:36,496 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=602e7cab1607406fb36483163c76c4be;ln=1;lu=51229765'}
+2019-02-20 16:30:36,763 - INFO -newRun.py : 548 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:30:36,780 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:30:36,919 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=1b17f06086a842619dc9763923ac0403
+2019-02-20 16:30:37,027 - INFO -newRun.py : 548 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:30:37,028 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1b17f06086a842619dc9763923ac0403'}
+2019-02-20 16:30:37,292 - INFO -newRun.py : 548 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:30:37,293 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1b17f06086a842619dc9763923ac0403'}
+2019-02-20 16:30:37,565 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=1b17f06086a842619dc9763923ac0403
+2019-02-20 16:31:49,512 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-20 16:31:49,771 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:31:49,771 - INFO -newRun.py : 528 :runAll - 共获取5条用例
+2019-02-20 16:31:50,568 - INFO -newRun.py : 548 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:31:50,569 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:31:50,742 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=94a2329e00d7454fa4d69e2e0992c1ba;ln=1;lu=51229766
+2019-02-20 16:31:50,854 - INFO -newRun.py : 548 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:31:50,871 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=94a2329e00d7454fa4d69e2e0992c1ba;ln=1;lu=51229766'}
+2019-02-20 16:31:51,165 - INFO -newRun.py : 548 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:31:51,182 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:31:51,301 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=da66b76afb0a4f028d4580ef9ffdc902
+2019-02-20 16:31:51,372 - INFO -newRun.py : 548 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:31:51,372 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=da66b76afb0a4f028d4580ef9ffdc902'}
+2019-02-20 16:31:51,664 - INFO -newRun.py : 548 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:31:51,664 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=da66b76afb0a4f028d4580ef9ffdc902'}
+2019-02-20 16:31:51,843 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=da66b76afb0a4f028d4580ef9ffdc902
+2019-02-20 16:31:52,096 - INFO -newRun.py : 613 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.25秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:31:52,097 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:31:52,101 - DEBUG -newRun.py : 630 :<module> - ******************************************END******************************************
+2019-02-20 16:32:16,998 - DEBUG -newRun.py : 628 :<module> - ******************************************START******************************************
+2019-02-20 16:32:17,250 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:32:17,251 - INFO -newRun.py : 528 :runAll - 共获取5条用例
+2019-02-20 16:32:18,529 - INFO -newRun.py : 548 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:32:18,530 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:32:18,816 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=910f93f6a98f4405902c6bdaabebc956;ln=1;lu=51229767
+2019-02-20 16:32:18,946 - INFO -newRun.py : 548 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:32:19,252 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=910f93f6a98f4405902c6bdaabebc956;ln=1;lu=51229767'}
+2019-02-20 16:32:19,495 - INFO -newRun.py : 548 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:32:19,514 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:32:19,624 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=cd74a754e4014b5e88627e81ba65258b
+2019-02-20 16:32:19,696 - INFO -newRun.py : 548 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:32:19,696 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=cd74a754e4014b5e88627e81ba65258b'}
+2019-02-20 16:32:20,031 - INFO -newRun.py : 548 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:32:20,032 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=cd74a754e4014b5e88627e81ba65258b'}
+2019-02-20 16:32:20,223 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=cd74a754e4014b5e88627e81ba65258b
+2019-02-20 16:37:05,822 - DEBUG -newRun.py : 630 :<module> - ******************************************START******************************************
+2019-02-20 16:37:05,978 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:37:05,979 - INFO -newRun.py : 530 :runAll - 共获取5条用例
+2019-02-20 16:37:07,094 - INFO -newRun.py : 550 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:37:07,094 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:37:07,340 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=1296c8e3c1d54ce9a826e6ac6c35b2b1;ln=1;lu=51229768
+2019-02-20 16:37:07,440 - INFO -newRun.py : 550 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:37:07,518 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1296c8e3c1d54ce9a826e6ac6c35b2b1;ln=1;lu=51229768'}
+2019-02-20 16:37:07,910 - INFO -newRun.py : 550 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:37:07,957 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:37:08,130 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e8e6d7f7562947c8966102e8043902b9
+2019-02-20 16:37:08,230 - INFO -newRun.py : 550 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:37:08,230 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e8e6d7f7562947c8966102e8043902b9'}
+2019-02-20 16:37:08,498 - INFO -newRun.py : 550 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:37:08,498 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e8e6d7f7562947c8966102e8043902b9'}
+2019-02-20 16:37:08,580 - INFO -newRun.py : 338 :excute_case - 正在执行关联接口:/s5/login.mobile
+2019-02-20 16:37:08,733 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e8e6d7f7562947c8966102e8043902b9
+2019-02-20 16:37:17,288 - DEBUG -newRun.py : 630 :<module> - ******************************************START******************************************
+2019-02-20 16:37:17,490 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:37:17,490 - INFO -newRun.py : 530 :runAll - 共获取5条用例
+2019-02-20 16:37:18,652 - INFO -newRun.py : 550 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:37:18,652 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:37:18,966 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=45968eaadc444c768a0c2f9a84f11860;ln=1;lu=51229769
+2019-02-20 16:37:19,039 - INFO -newRun.py : 550 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:37:19,059 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=45968eaadc444c768a0c2f9a84f11860;ln=1;lu=51229769'}
+2019-02-20 16:37:19,398 - INFO -newRun.py : 550 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:37:19,427 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:37:19,574 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=ba597aa5821f4ea3a208eb8f8d813c80
+2019-02-20 16:37:19,738 - INFO -newRun.py : 550 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:37:19,738 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=ba597aa5821f4ea3a208eb8f8d813c80'}
+2019-02-20 16:37:20,072 - INFO -newRun.py : 550 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:37:20,073 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=ba597aa5821f4ea3a208eb8f8d813c80'}
+2019-02-20 16:37:20,108 - INFO -newRun.py : 338 :excute_case - 正在执行关联接口:/s5/login.mobile
+2019-02-20 16:37:20,253 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=ba597aa5821f4ea3a208eb8f8d813c80
+2019-02-20 16:38:02,183 - DEBUG -newRun.py : 630 :<module> - ******************************************START******************************************
+2019-02-20 16:38:02,380 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:38:02,381 - INFO -newRun.py : 530 :runAll - 共获取5条用例
+2019-02-20 16:38:03,458 - INFO -newRun.py : 550 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:38:03,459 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:38:03,637 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=b189170b14aa445aa6709334c2570cc1;ln=1;lu=51229770
+2019-02-20 16:38:03,744 - INFO -newRun.py : 550 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:38:03,769 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=b189170b14aa445aa6709334c2570cc1;ln=1;lu=51229770'}
+2019-02-20 16:38:04,003 - INFO -newRun.py : 550 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:38:04,023 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:38:04,188 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e2202ec55e594f60bd243264e3d42e8c
+2019-02-20 16:38:04,286 - INFO -newRun.py : 550 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:38:04,286 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e2202ec55e594f60bd243264e3d42e8c'}
+2019-02-20 16:38:04,551 - INFO -newRun.py : 550 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:38:04,551 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e2202ec55e594f60bd243264e3d42e8c'}
+2019-02-20 16:38:04,654 - INFO -newRun.py : 338 :excute_case - 正在执行关联接口:/s5/login.mobile
+2019-02-20 16:38:04,768 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=e2202ec55e594f60bd243264e3d42e8c
+2019-02-20 16:38:04,769 - INFO -newRun.py : 338 :excute_case - 正在执行关联接口:/s4/users.accounts.getDetail
+2019-02-20 16:38:05,231 - INFO -newRun.py : 615 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.63秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:38:05,234 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:38:05,244 - DEBUG -newRun.py : 632 :<module> - ******************************************END******************************************
+2019-02-20 16:40:41,036 - DEBUG -newRun.py : 631 :<module> - ******************************************START******************************************
+2019-02-20 16:40:41,207 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:40:41,208 - INFO -newRun.py : 531 :runAll - 共获取5条用例
+2019-02-20 16:40:41,867 - INFO -newRun.py : 551 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:40:41,867 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:40:42,122 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=5fdc321fa0f24d7e843151e51604c98b;ln=1;lu=51229771
+2019-02-20 16:40:42,220 - INFO -newRun.py : 551 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:40:42,238 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=5fdc321fa0f24d7e843151e51604c98b;ln=1;lu=51229771'}
+2019-02-20 16:40:42,555 - INFO -newRun.py : 551 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:40:42,665 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:40:42,878 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=6e15eae4a29641e7ad8e0f0770a156b5
+2019-02-20 16:40:42,954 - INFO -newRun.py : 551 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:40:42,955 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6e15eae4a29641e7ad8e0f0770a156b5'}
+2019-02-20 16:40:43,415 - INFO -newRun.py : 551 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:40:43,415 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6e15eae4a29641e7ad8e0f0770a156b5'}
+2019-02-20 16:40:43,512 - INFO -newRun.py : 339 :excute_case - 正在执行关联接口:/s5/login.mobile
+2019-02-20 16:40:43,640 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=6e15eae4a29641e7ad8e0f0770a156b5
+2019-02-20 16:40:43,640 - INFO -newRun.py : 339 :excute_case - 正在执行关联接口:/s4/users.accounts.getDetail
+2019-02-20 16:40:43,961 - INFO -newRun.py : 616 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.59秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:40:43,963 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:40:43,972 - DEBUG -newRun.py : 633 :<module> - ******************************************END******************************************
+2019-02-20 16:43:41,807 - DEBUG -newRun.py : 625 :<module> - ******************************************START******************************************
+2019-02-20 16:43:42,101 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_exmple1.xlsx
+2019-02-20 16:43:42,102 - INFO -newRun.py : 527 :runAll - 共获取5条用例
+2019-02-20 16:43:42,694 - INFO -newRun.py : 547 :runAll - 正在执行caseId=1的用例
+2019-02-20 16:43:42,694 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:43:42,821 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=43e8ade070c34185abb5a3f3eb28c1f2;ln=1;lu=51229772
+2019-02-20 16:43:42,931 - INFO -newRun.py : 547 :runAll - 正在执行caseId=2的用例
+2019-02-20 16:43:42,949 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=43e8ade070c34185abb5a3f3eb28c1f2;ln=1;lu=51229772'}
+2019-02-20 16:43:43,214 - INFO -newRun.py : 547 :runAll - 正在执行caseId=3的用例
+2019-02-20 16:43:43,233 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->None
+2019-02-20 16:43:43,411 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=74fb70be4db3412084cf3a33a5bb7caa
+2019-02-20 16:43:43,511 - INFO -newRun.py : 547 :runAll - 正在执行caseId=4的用例
+2019-02-20 16:43:43,512 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=74fb70be4db3412084cf3a33a5bb7caa'}
+2019-02-20 16:43:43,774 - INFO -newRun.py : 547 :runAll - 正在执行caseId=5的用例
+2019-02-20 16:43:43,775 - INFO -newRun.py : 298 :excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=74fb70be4db3412084cf3a33a5bb7caa'}
+2019-02-20 16:43:43,810 - INFO -newRun.py : 337 :excute_case - 正在执行关联接口:/s5/login.mobile
+2019-02-20 16:43:43,954 - INFO -newRun.py : 252 :request_api - headers信息写入配置文件成功--->DIS4=74fb70be4db3412084cf3a33a5bb7caa
+2019-02-20 16:43:43,954 - INFO -newRun.py : 337 :excute_case - 正在执行关联接口:/s4/users.accounts.getDetail
+2019-02-20 16:43:44,395 - INFO -newRun.py : 612 :runAll - 本次测试执行完毕，本次测试环境为：http://fp02.ops.gaoshou.me，共耗时2.12秒，共执行用例：5条，成功：3条，失败：1条，阻塞：1条
+2019-02-20 16:43:44,398 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-02-20 16:43:44,414 - DEBUG -newRun.py : 627 :<module> - ******************************************END******************************************
