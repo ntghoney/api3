@@ -114,22 +114,24 @@ class Report(object):
                 self.write(row, 1, resdic[key], self.style1())
             elif key.__eq__(APIHOST):
                 self.write(row, 2, resdic[key], self.style1())
-            elif key.__eq__(EXPECT):
-                self.write(row, 4, resdic[key], self.style1())
-            elif key.__eq__(PARMAS):
+            elif key.__eq__(METHOD):
                 self.write(row, 3, resdic[key], self.style1())
+            elif key.__eq__(PARMAS):
+                self.write(row, 4, resdic[key], self.style1())
+            elif key.__eq__(EXPECT):
+                self.write(row, 5, resdic[key], self.style1())
             elif key.__eq__(FACT):
-                self.write(row, 5, resdic[key], self.col_style())
-            elif key.__eq__(DATABASERESUTL):
                 self.write(row, 6, resdic[key], self.col_style())
-            elif key.__eq__(DATABASEEXPECT):
+            elif key.__eq__(DATABASERESUTL):
                 self.write(row, 7, resdic[key], self.col_style())
-            elif key.__eq__(ISPASS):
+            elif key.__eq__(DATABASEEXPECT):
                 self.write(row, 8, resdic[key], self.col_style())
-            elif key.__eq__(TIME):
+            elif key.__eq__(ISPASS):
                 self.write(row, 9, resdic[key], self.style1())
-            elif key.__eq__(REASON):
+            elif key.__eq__(TIME):
                 self.write(row, 10, resdic[key], self.style1())
+            elif key.__eq__(REASON):
+                self.write(row, 11, resdic[key], self.style1())
 
     def get_report(self, result):
         global row, ncols

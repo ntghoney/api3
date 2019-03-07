@@ -44,4 +44,4 @@ class PaserExc(object):
 
 
 if __name__ == '__main__':
-    pass
+    print(PaserExc("E:/project/ApiTest/cases\case_user.xlsx",0).get_row())

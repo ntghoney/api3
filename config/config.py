@@ -14,7 +14,7 @@ TESTDEV1 = "http://fp01.ops.gaoshou.me"
 TESTDEV2 = "http://fp02.ops.gaoshou.me"
 
 # 用例字段名
-CASENAME = ["caseId", "apiId", "caseDescribe", "apiHost", "apiParams", "apiHeaders", "method", "relatedApi",
+CASENAME = ["caseId", "apiId", "caseDescribe","apiHost", "testData","apiParams", "apiHeaders", "method", "relatedApi",
             "relatedParams", "expect", "sqlStatement", "databaseExpect", "isExcute"]
 if platform.system() == "Windows":
     # 用例存放路径
@@ -26,11 +26,13 @@ TABLECASE = "testcase"
 TABLERESULT = "testresult"
 TABLEAPIINFO = "apiinfo"
 
+PARAMETERIZE="parameterize"
 CASEID = "caseId"
 APIID = "apiId"
 CASEDESCRIBE = "caseDescribe"
 APIHOST = "apiHost"
 PARMAS = "apiParams"
+TESTDATA="testData"
 METHOD = "method"
 APIHEADERS="apiHeaders"
 HEADERS = "headers"
@@ -51,7 +53,8 @@ BLOCK = "block"
 REASON = "reason"
 
 # 邮件接受人邮箱
-RECEIVERS = ["740207942@qq.com", "2395027402@qq.com","ning.tonggang@qianka.com"]
+# RECEIVERS = ["ning.tonggang@qianka.com","ge.yuan@qianka.com","wu.zhishan@qianka.com","pei.qingling@qianka.com"]
+RECEIVERS = ["ning.tonggang@qianka.com"]
 
 """
 cookie key

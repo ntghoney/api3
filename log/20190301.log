@@ -1,0 +1,473 @@
+2019-03-01 13:57:30,721 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 13:57:30,721 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 13:57:32,171 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 13:57:32,171 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:57:32,172 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:57:32,336 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=eed2035cde644112b7a568b5f6535456;ln=1;lu=51229835
+2019-03-01 13:57:32,338 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229835 
+2019-03-01 13:57:32,389 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229835
+2019-03-01 13:57:32,422 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229835
+2019-03-01 13:57:32,565 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 13:57:32,565 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=eed2035cde644112b7a568b5f6535456;ln=1;lu=51229835'}
+2019-03-01 13:57:32,566 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:57:32,919 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 13:57:32,920 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=eed2035cde644112b7a568b5f6535456;ln=1;lu=51229835'}
+2019-03-01 13:57:32,920 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 13:57:33,142 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 13:57:33,142 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:57:33,142 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:57:33,251 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a6f739ffa32a43679d7dd03287afb23a
+2019-03-01 13:57:33,321 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 13:57:33,321 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 13:57:33,322 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:57:33,468 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=28bddd5a2e5e400b877c499bfff395c9;ln=1;lu=51229836
+2019-03-01 13:57:33,592 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 13:57:33,592 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 13:57:33,592 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:57:33,789 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=6c1638d748d7414993262e6a40647f6a;ln=1;lu=51229837
+2019-03-01 13:57:33,878 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 13:57:33,879 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6c1638d748d7414993262e6a40647f6a;ln=1;lu=51229837'}
+2019-03-01 13:57:33,879 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:57:34,201 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 13:57:34,201 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6c1638d748d7414993262e6a40647f6a;ln=1;lu=51229837'}
+2019-03-01 13:57:34,202 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:57:34,638 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp0，共耗时3.8秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 13:57:34,642 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 13:58:33,875 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 13:58:33,875 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 13:58:35,416 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 13:58:35,416 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:58:35,417 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:35,587 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=50fc42d81f8b4af19abb7cfcd3db07a8;ln=1;lu=51229838
+2019-03-01 13:58:35,589 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229838 
+2019-03-01 13:58:35,696 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229838
+2019-03-01 13:58:35,735 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229838
+2019-03-01 13:58:35,911 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 13:58:35,911 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=50fc42d81f8b4af19abb7cfcd3db07a8;ln=1;lu=51229838'}
+2019-03-01 13:58:35,912 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:58:36,319 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 13:58:36,320 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=50fc42d81f8b4af19abb7cfcd3db07a8;ln=1;lu=51229838'}
+2019-03-01 13:58:36,320 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 13:58:36,584 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 13:58:36,584 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:58:36,585 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:36,761 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=97e4673ee17749658eb4f41207c99d91
+2019-03-01 13:58:36,877 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 13:58:36,878 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 13:58:36,878 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:43,319 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 13:58:43,320 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 13:58:44,590 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 13:58:44,590 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:58:44,590 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:44,785 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=e86a30f6cb704c8083211903369b447c;ln=1;lu=51229839
+2019-03-01 13:58:44,788 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229839 
+2019-03-01 13:58:44,828 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229839
+2019-03-01 13:58:44,875 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229839
+2019-03-01 13:58:44,993 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 13:58:44,994 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e86a30f6cb704c8083211903369b447c;ln=1;lu=51229839'}
+2019-03-01 13:58:44,994 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:58:45,426 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 13:58:45,427 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=e86a30f6cb704c8083211903369b447c;ln=1;lu=51229839'}
+2019-03-01 13:58:45,427 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 13:58:45,612 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 13:58:45,612 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 13:58:45,612 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:45,742 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=83cac62ff2cd4453a5f9aea1a0472524
+2019-03-01 13:58:45,840 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 13:58:45,840 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 13:58:45,840 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:45,959 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=6eb0acccecea44fc9d9dcdb01b3e3fda;ln=1;lu=51229840
+2019-03-01 13:58:46,031 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 13:58:46,031 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 13:58:46,031 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 13:58:46,248 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=cb3e39bbddd4469e9f90f4717ed29c43;ln=1;lu=51229841
+2019-03-01 13:58:46,399 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 13:58:46,400 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=cb3e39bbddd4469e9f90f4717ed29c43;ln=1;lu=51229841'}
+2019-03-01 13:58:46,401 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:58:46,668 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 13:58:46,669 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=cb3e39bbddd4469e9f90f4717ed29c43;ln=1;lu=51229841'}
+2019-03-01 13:58:46,669 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 13:58:47,032 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.65秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 13:58:47,035 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 13:58:48,923 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:36:00,279 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:36:00,771 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:36:00,771 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:36:04,727 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:36:04,727 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:36:04,728 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:36:05,137 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=1bd4ecfe7f9a462fa906bc2fe40a4b54;ln=1;lu=51229849
+2019-03-01 17:36:05,140 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229849 
+2019-03-01 17:36:05,294 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229849
+2019-03-01 17:36:05,409 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229849
+2019-03-01 17:36:05,720 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:36:05,720 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1bd4ecfe7f9a462fa906bc2fe40a4b54;ln=1;lu=51229849'}
+2019-03-01 17:36:05,721 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:36:06,374 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:36:06,375 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1bd4ecfe7f9a462fa906bc2fe40a4b54;ln=1;lu=51229849'}
+2019-03-01 17:36:06,375 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:36:06,881 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:36:06,882 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:36:06,882 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:36:07,114 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=32dd1b8e21ba45a3ba3ea47d9298e702
+2019-03-01 17:36:07,343 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:36:07,344 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:36:07,344 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:36:07,630 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=e4b6490282824243a10ad5712a27a882;ln=1;lu=51229850
+2019-03-01 17:36:07,857 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:36:07,858 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:36:07,858 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:36:08,151 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=03c86bd8e96e4d928e9d531235301bcf;ln=1;lu=51229851
+2019-03-01 17:36:08,425 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:36:08,426 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=03c86bd8e96e4d928e9d531235301bcf;ln=1;lu=51229851'}
+2019-03-01 17:36:08,426 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:36:09,073 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:36:09,074 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=03c86bd8e96e4d928e9d531235301bcf;ln=1;lu=51229851'}
+2019-03-01 17:36:09,074 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:36:10,101 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时8.85秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:36:10,104 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:36:12,179 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:36:12,180 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:47:51,009 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:47:51,335 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:47:51,335 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:47:54,589 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:47:54,590 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:47:54,590 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:47:54,944 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=b2d30ca74c3c4f5ca07f1891ec90ba26;ln=1;lu=51229853
+2019-03-01 17:47:54,946 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229853 
+2019-03-01 17:47:55,121 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229853
+2019-03-01 17:47:55,306 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229853
+2019-03-01 17:47:55,779 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:47:55,779 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=b2d30ca74c3c4f5ca07f1891ec90ba26;ln=1;lu=51229853'}
+2019-03-01 17:47:55,780 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:47:56,541 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:47:56,541 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=b2d30ca74c3c4f5ca07f1891ec90ba26;ln=1;lu=51229853'}
+2019-03-01 17:47:56,542 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:47:57,200 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:47:57,201 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:47:57,201 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:47:57,562 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=aee37ce681be458095dd01f37dc600d7
+2019-03-01 17:47:58,183 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:47:58,183 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:47:58,184 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:47:58,992 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=ad327b895d974a50b59c51c501ec12cb;ln=1;lu=51229854
+2019-03-01 17:48:00,098 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:48:00,099 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:48:00,099 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:48:00,596 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=ba7e50d424b7471c962d2274726142d3;ln=1;lu=51229855
+2019-03-01 17:48:01,563 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:48:01,563 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=ba7e50d424b7471c962d2274726142d3;ln=1;lu=51229855'}
+2019-03-01 17:48:01,564 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:48:02,633 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:48:02,634 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=ba7e50d424b7471c962d2274726142d3;ln=1;lu=51229855'}
+2019-03-01 17:48:02,634 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:48:05,329 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时12.62秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:48:05,333 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:48:07,546 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:48:07,547 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:54:14,575 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:54:14,740 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:54:14,741 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:54:15,965 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:54:15,965 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:54:15,966 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:16,141 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=37dc4da336514b70a671304cc3d3133f;ln=1;lu=51229856
+2019-03-01 17:54:16,144 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229856 
+2019-03-01 17:54:16,189 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229856
+2019-03-01 17:54:16,262 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229856
+2019-03-01 17:54:16,333 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:54:16,333 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=37dc4da336514b70a671304cc3d3133f;ln=1;lu=51229856'}
+2019-03-01 17:54:16,334 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:16,824 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:54:16,825 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=37dc4da336514b70a671304cc3d3133f;ln=1;lu=51229856'}
+2019-03-01 17:54:16,825 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:54:17,079 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:54:17,079 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:54:17,079 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:17,196 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=51942f69cf914e11a963869be9040b88
+2019-03-01 17:54:17,300 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:54:17,300 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:54:17,300 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:17,426 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a2ee6cd64f9744feba76fe946da190c4;ln=1;lu=51229857
+2019-03-01 17:54:17,524 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:54:17,525 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:54:17,525 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:17,660 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a41950d2efe44272b5ef88259f5ddaa7;ln=1;lu=51229858
+2019-03-01 17:54:17,755 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:54:17,756 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a41950d2efe44272b5ef88259f5ddaa7;ln=1;lu=51229858'}
+2019-03-01 17:54:17,756 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:18,048 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:54:18,049 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a41950d2efe44272b5ef88259f5ddaa7;ln=1;lu=51229858'}
+2019-03-01 17:54:18,049 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:18,567 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.58秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:54:18,571 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:54:20,421 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:54:20,422 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:54:48,966 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:54:49,126 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:54:49,127 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:54:49,822 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:54:49,823 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:54:49,823 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:49,998 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=3a4008a532fe4a188356bc510e12b28a;ln=1;lu=51229859
+2019-03-01 17:54:49,999 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229859 
+2019-03-01 17:54:50,043 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229859
+2019-03-01 17:54:50,084 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229859
+2019-03-01 17:54:50,233 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:54:50,233 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=3a4008a532fe4a188356bc510e12b28a;ln=1;lu=51229859'}
+2019-03-01 17:54:50,234 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:50,661 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:54:50,662 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=3a4008a532fe4a188356bc510e12b28a;ln=1;lu=51229859'}
+2019-03-01 17:54:50,662 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:54:50,905 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:54:50,905 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:54:50,906 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:51,090 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=8fd9e64d18ca4a438f740d068f49e5d0
+2019-03-01 17:54:51,255 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:54:51,255 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:54:51,256 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:51,535 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=920b50bb1783403faebdbea542532609;ln=1;lu=51229860
+2019-03-01 17:54:51,708 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:54:51,708 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:54:51,709 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:54:51,880 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=da37d4bff5a14ac0b52a883da15d2b53;ln=1;lu=51229861
+2019-03-01 17:54:51,934 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:54:51,935 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=da37d4bff5a14ac0b52a883da15d2b53;ln=1;lu=51229861'}
+2019-03-01 17:54:51,935 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:52,266 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:54:52,267 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=da37d4bff5a14ac0b52a883da15d2b53;ln=1;lu=51229861'}
+2019-03-01 17:54:52,267 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:54:52,588 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.38秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:54:52,591 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:54:54,741 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:54:54,742 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:56:14,217 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:56:14,373 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:56:14,374 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:56:16,237 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:56:16,237 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:56:16,237 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:56:16,430 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a0e1e11979c64368884d2edd3c477aa8;ln=1;lu=51229862
+2019-03-01 17:56:16,433 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229862 
+2019-03-01 17:56:16,482 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229862
+2019-03-01 17:56:16,541 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229862
+2019-03-01 17:56:16,678 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:56:16,679 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a0e1e11979c64368884d2edd3c477aa8;ln=1;lu=51229862'}
+2019-03-01 17:56:16,679 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:56:17,131 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:56:17,131 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=a0e1e11979c64368884d2edd3c477aa8;ln=1;lu=51229862'}
+2019-03-01 17:56:17,131 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:56:17,375 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:56:17,375 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:56:17,375 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:56:17,464 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=48f368cf2212419d837d5d9f26fd5813
+2019-03-01 17:56:17,702 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:56:17,702 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:56:17,702 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:56:17,905 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=f44fd40f176a4bb99bafaf502aabeb93;ln=1;lu=51229863
+2019-03-01 17:56:17,991 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:56:17,992 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:56:17,992 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:56:18,204 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=9f657ea22f264921951ce681377edd89;ln=1;lu=51229864
+2019-03-01 17:56:18,302 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:56:18,303 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=9f657ea22f264921951ce681377edd89;ln=1;lu=51229864'}
+2019-03-01 17:56:18,303 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:56:18,558 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:56:18,558 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=9f657ea22f264921951ce681377edd89;ln=1;lu=51229864'}
+2019-03-01 17:56:18,558 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:56:19,050 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时4.45秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:56:19,051 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:56:20,960 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:56:20,961 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:57:19,065 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:57:19,221 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:57:19,222 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:57:20,579 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:57:20,579 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:57:20,580 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:20,776 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=192d75558aba405fb3930941553c013b;ln=1;lu=51229865
+2019-03-01 17:57:20,779 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229865 
+2019-03-01 17:57:20,812 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229865
+2019-03-01 17:57:20,849 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229865
+2019-03-01 17:57:21,042 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:57:21,042 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=192d75558aba405fb3930941553c013b;ln=1;lu=51229865'}
+2019-03-01 17:57:21,043 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:21,461 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:57:21,461 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=192d75558aba405fb3930941553c013b;ln=1;lu=51229865'}
+2019-03-01 17:57:21,461 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:57:21,685 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:57:21,685 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:57:21,686 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:21,898 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=e27455d29a80401d887762e60de27429
+2019-03-01 17:57:22,073 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:57:22,073 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:57:22,074 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:22,288 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=df7444cb177543aea1a7213265b35916;ln=1;lu=51229866
+2019-03-01 17:57:22,371 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:57:22,371 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:57:22,371 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:22,529 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=357e9d256d43450a9add5242eb0053f5;ln=1;lu=51229867
+2019-03-01 17:57:22,679 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:57:22,680 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=357e9d256d43450a9add5242eb0053f5;ln=1;lu=51229867'}
+2019-03-01 17:57:22,680 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:22,990 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:57:22,991 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=357e9d256d43450a9add5242eb0053f5;ln=1;lu=51229867'}
+2019-03-01 17:57:22,991 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:23,494 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时4.06秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:57:23,498 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:57:24,705 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:57:24,705 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:57:49,143 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:57:49,531 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:57:49,532 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:57:52,613 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:57:52,613 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:57:52,614 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:52,949 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=f1f7a6be2dbd4745aaa3f2fa0a37a091;ln=1;lu=51229868
+2019-03-01 17:57:52,952 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229868 
+2019-03-01 17:57:53,102 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229868
+2019-03-01 17:57:53,203 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229868
+2019-03-01 17:57:53,556 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:57:53,557 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=f1f7a6be2dbd4745aaa3f2fa0a37a091;ln=1;lu=51229868'}
+2019-03-01 17:57:53,557 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:54,197 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:57:54,197 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=f1f7a6be2dbd4745aaa3f2fa0a37a091;ln=1;lu=51229868'}
+2019-03-01 17:57:54,198 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:57:54,761 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:57:54,762 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:57:54,762 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:55,555 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a742205a873e452eb964346ec5aaa69d
+2019-03-01 17:57:55,770 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:57:55,771 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:57:55,772 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:56,027 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=05802bde587c4096b69446df518dd4d2;ln=1;lu=51229869
+2019-03-01 17:57:56,306 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:57:56,307 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:57:56,307 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:57:56,548 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=8cba07c6b6fe41b9ac15620ee18ac25d;ln=1;lu=51229870
+2019-03-01 17:57:57,032 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:57:57,033 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=8cba07c6b6fe41b9ac15620ee18ac25d;ln=1;lu=51229870'}
+2019-03-01 17:57:57,033 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:57,734 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:57:57,734 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=8cba07c6b6fe41b9ac15620ee18ac25d;ln=1;lu=51229870'}
+2019-03-01 17:57:57,734 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:57:59,044 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时9.09秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:57:59,047 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:58:00,812 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:58:00,813 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 17:59:43,375 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 17:59:43,577 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 17:59:43,578 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 17:59:44,560 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 17:59:44,561 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:59:44,561 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:59:44,732 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=efa09186231245ca8e18f7b6a0d25b0b;ln=1;lu=51229871
+2019-03-01 17:59:44,735 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229871 
+2019-03-01 17:59:44,792 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229871
+2019-03-01 17:59:44,822 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229871
+2019-03-01 17:59:44,894 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 17:59:44,895 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=efa09186231245ca8e18f7b6a0d25b0b;ln=1;lu=51229871'}
+2019-03-01 17:59:44,895 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:59:45,304 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 17:59:45,304 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=efa09186231245ca8e18f7b6a0d25b0b;ln=1;lu=51229871'}
+2019-03-01 17:59:45,304 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 17:59:45,564 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 17:59:45,565 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 17:59:45,565 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:59:45,646 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=cb9f634a133d4389adf9f7b216c63da6
+2019-03-01 17:59:45,715 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 17:59:45,715 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 17:59:45,715 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:59:45,898 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=232bc1a4aa9b43f5961c4f969832a9d6;ln=1;lu=51229872
+2019-03-01 17:59:45,983 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 17:59:45,984 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 17:59:45,984 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 17:59:46,137 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=326b794f5f8b4097af68133ed4dddd10;ln=1;lu=51229873
+2019-03-01 17:59:46,214 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 17:59:46,214 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=326b794f5f8b4097af68133ed4dddd10;ln=1;lu=51229873'}
+2019-03-01 17:59:46,214 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:59:46,542 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 17:59:46,543 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=326b794f5f8b4097af68133ed4dddd10;ln=1;lu=51229873'}
+2019-03-01 17:59:46,543 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 17:59:47,018 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.28秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 17:59:47,022 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 17:59:48,475 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 17:59:48,476 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 18:02:22,516 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 18:02:22,719 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 18:02:22,719 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 18:02:24,054 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 18:02:24,054 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 18:02:24,054 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:02:24,229 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=1310f5e6607442778e224032436e2a87;ln=1;lu=51229874
+2019-03-01 18:02:24,232 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229874 
+2019-03-01 18:02:24,268 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229874
+2019-03-01 18:02:24,305 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229874
+2019-03-01 18:02:24,449 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 18:02:24,450 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1310f5e6607442778e224032436e2a87;ln=1;lu=51229874'}
+2019-03-01 18:02:24,450 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:02:24,796 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 18:02:24,797 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1310f5e6607442778e224032436e2a87;ln=1;lu=51229874'}
+2019-03-01 18:02:24,797 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 18:02:25,072 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 18:02:25,073 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 18:02:25,073 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:02:25,174 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=a4f4702ae9574e6d9aa1eb5d2c0619cf
+2019-03-01 18:02:25,317 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 18:02:25,317 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 18:02:25,317 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:02:25,502 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=4e45a443c91e4bd38d79705d71264532;ln=1;lu=51229875
+2019-03-01 18:02:25,578 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 18:02:25,579 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 18:02:25,579 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:02:25,748 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=6c9f2a72c6c240908314f237446567f2;ln=1;lu=51229876
+2019-03-01 18:02:25,826 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 18:02:25,827 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6c9f2a72c6c240908314f237446567f2;ln=1;lu=51229876'}
+2019-03-01 18:02:25,827 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:02:26,150 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 18:02:26,151 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=6c9f2a72c6c240908314f237446567f2;ln=1;lu=51229876'}
+2019-03-01 18:02:26,151 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:02:26,508 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.65秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 18:02:26,510 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 18:02:27,688 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 18:02:27,689 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************
+2019-03-01 18:03:36,489 - DEBUG -newRun.py : 776 :<module> - ******************************************START******************************************
+2019-03-01 18:03:36,638 - INFO -parseExc.py : 22 :__init__ - 用例路径：E:\project\ApiTest\cases\case_user.xlsx
+2019-03-01 18:03:36,639 - INFO -newRun.py : 667 :runAll - 共获取8条用例
+2019-03-01 18:03:37,561 - INFO -newRun.py : 688 :runAll - 正在执行caseId=1的用例
+2019-03-01 18:03:37,561 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 18:03:37,561 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:03:37,741 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=94466a7d6f4543ca9052709e2ab1f9af;ln=1;lu=51229877
+2019-03-01 18:03:37,744 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user where id = 51229877 
+2019-03-01 18:03:37,786 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian_1.user where id = 51229877
+2019-03-01 18:03:37,810 - INFO -newRun.py : 154 :params_replace - 参数化成功select * from zhuanqian.user_info where user_id=51229877
+2019-03-01 18:03:38,011 - INFO -newRun.py : 688 :runAll - 正在执行caseId=2的用例
+2019-03-01 18:03:38,011 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=94466a7d6f4543ca9052709e2ab1f9af;ln=1;lu=51229877'}
+2019-03-01 18:03:38,012 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:03:38,343 - INFO -newRun.py : 688 :runAll - 正在执行caseId=3的用例
+2019-03-01 18:03:38,343 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=94466a7d6f4543ca9052709e2ab1f9af;ln=1;lu=51229877'}
+2019-03-01 18:03:38,343 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s4/lite.subtask.list
+2019-03-01 18:03:38,559 - INFO -newRun.py : 688 :runAll - 正在执行caseId=4的用例
+2019-03-01 18:03:38,560 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->None
+2019-03-01 18:03:38,560 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:03:38,650 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=3ab1f02cf02b4b10ad0852c521d0af2f
+2019-03-01 18:03:38,758 - INFO -newRun.py : 688 :runAll - 正在执行caseId=5的用例
+2019-03-01 18:03:38,758 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=1122151'}
+2019-03-01 18:03:38,758 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:03:38,945 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=d0a2e59dcd2a4f3b9d7cc69f952c493b;ln=1;lu=51229878
+2019-03-01 18:03:39,095 - INFO -newRun.py : 688 :runAll - 正在执行caseId=6的用例
+2019-03-01 18:03:39,096 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'mu=123456'}
+2019-03-01 18:03:39,096 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/create_user
+2019-03-01 18:03:39,251 - INFO -newRun.py : 291 :request_api - headers信息写入配置文件成功--->DIS4=8d6dd2f318f1485c922ca52d548bb4a2;ln=1;lu=51229879
+2019-03-01 18:03:39,405 - INFO -newRun.py : 688 :runAll - 正在执行caseId=7的用例
+2019-03-01 18:03:39,405 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=8d6dd2f318f1485c922ca52d548bb4a2;ln=1;lu=51229879'}
+2019-03-01 18:03:39,405 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:03:39,702 - INFO -newRun.py : 688 :runAll - 正在执行caseId=8的用例
+2019-03-01 18:03:39,703 - INFO -newRun.py : 327 :new_excute_case - 此次接口请求的header信息为--->{'cookie': 'DIS4=8d6dd2f318f1485c922ca52d548bb4a2;ln=1;lu=51229879'}
+2019-03-01 18:03:39,703 - INFO -newRun.py : 348 :new_excute_case - 正在执行关联接口:/s5/dashboard
+2019-03-01 18:03:40,117 - INFO -newRun.py : 763 :runAll - 本次测试执行完毕，本次测试环境为：fp01，共耗时3.38秒，共执行用例：8条，成功：8条，失败：0条，阻塞：0条
+2019-03-01 18:03:40,121 - INFO -report.py : 148 :get_report - 正在写入用例执行情况
+2019-03-01 18:03:41,585 - INFO -sendEmail.py : 60 :send_email_for_all - 邮件发送成功。。
+2019-03-01 18:03:41,586 - DEBUG -newRun.py : 778 :<module> - ******************************************END******************************************

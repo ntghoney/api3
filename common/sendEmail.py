@@ -10,6 +10,10 @@ from common.parseConfig import ParseConfig
 from config.config import RECEIVERS
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
+from common.log import Log
+import os
+
+log=Log().getLog()
 
 
 pc = ParseConfig()
@@ -21,18 +25,28 @@ class SendEmail(object):
         self.stmp = smtplib.SMTP(email_info["server"])
         self.msg = None
 
-    def set_msg(self, text,part_path):
+    def set_msg(self, text,part_path:list):
         message = MIMEMultipart()
         message.attach(MIMEText(text, 'plain', 'utf-8'))
-        message['From'] = Header(email_info["msgfrom"], 'utf-8')  # 发送者
+        message['From'] = Header(email_info["msgfrom"], 'gbk')  # 发送者
         subject = email_info["subject"]
         message['Subject'] = Header(subject, 'utf-8')
-
-        with open(part_path,"rb") as f:
-            part=MIMEApplication(f.read())
-            part.add_header('Content-Disposition', 'attachment', filename="测试报告.xls")
-            message.attach(part)
-            f.close()
+        for path in part_path:
+            fn=os.path.splitext(path)[1]
+            if fn ==".xls":
+                with open(path,"rb") as f:
+                    part=MIMEApplication(f.read())
+                    part.add_header('Content-Disposition', 'attachment', filename="测试报告.xls")
+                    message.attach(part)
+                    f.close()
+            elif fn==".html":
+                with open(path, "rb") as f:
+                    part = MIMEApplication(f.read())
+                    part.add_header('Content-Disposition', 'attachment', filename="测试报告.html")
+                    message.attach(part)
+                    f.close()
+            else:
+                raise TypeError("%s 文件类型错误"%path)
         self.msg = message
 
     def send_email(self, sender, recivers):
@@ -40,16 +54,21 @@ class SendEmail(object):
         self.stmp.sendmail(sender, recivers, self.msg.as_string())
 
 
-def send_email_for_all(msg,part_path):
+def send_email_for_all(msg,part_path:list):
     """
     群发信息
     :param msg: 正文
     :param part_path:附件地址
     :return:
     """
-    receivers = RECEIVERS
-    sender = 'ning.tonggang@qianka.com'
-    se = SendEmail()
-    message="Dear all,\n  {},详情见附件：".format(msg)
-    se.set_msg(message,part_path)
-    se.send_email(sender, receivers)
+    try:
+        receivers = RECEIVERS
+        sender = 'ning.tonggang@qianka.com'
+        se = SendEmail()
+        message="Dear all,\n  {},详情见附件：".format(msg)
+        se.set_msg(message,part_path)
+        se.send_email(sender, receivers)
+        log.info("邮件发送成功。。")
+    except Exception as e :
+        log.info(e)
+        log.error("邮件发送失败。。")

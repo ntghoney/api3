@@ -110,7 +110,7 @@ class ConMysql(object):
         """
         sql = "INSERT INTO {} SET ".format(table)
         for key in kwargs.keys():
-            if not key.__eq__(CASEID):
+            if not key.__eq__(CASEID) and not key.__eq__(TESTDATA) and not key.__eq__(METHOD):
                 if isinstance(kwargs[key], dict):
                     kwargs[key] = json.dumps(kwargs[key], ensure_ascii=False)
                 elif isinstance(kwargs[key], str):

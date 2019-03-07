@@ -8,7 +8,8 @@ from common.log import Log
 from config.config import *
 import logging
 import re
-import os
+import os,json
+from common.utils import MyEncoder
 
 log = logging.getLogger()
 
@@ -50,25 +51,32 @@ class HandleCase(object):
 
     # 处理检查点中数据
     def handle_checkPoint(self, item):
-        global key, value
         checkPints = {}
-        if "=" in item:
+        if "\n" in item:
+            point = item.split("\n")
+            for i in point:
+                if "=" in i:
+                    key, value = i.split("=", 1)
+                    if ":" in value:
+                        value = value.replace(":", "：")
+                    checkPints[key] = value
+        else:
             key, value = item.split("=")
-        if ":" in value:
-            value = value.replace(":", "：")
-        # if "." in key:
-        #     payloads = key.split(".")
-        #     length = len(payloads)
-        #     payloads.reverse()
-        #     for i in range(length - 1):
-        #         if i == 0:
-        #             checkPints[payloads[i + 1]] = {payloads[i]: value}
-        #         else:
-        #             checkPints = {payloads[i + 1]: checkPints}
-        # else:
-        #     checkPints[key] = value
-        checkPints[key]=value
+            if "=" in item:
+                key, value = item.split("=")
+                if ":" in value:
+                    value = value.replace(":", "：")
+            checkPints[key] = value
         return checkPints
+
+    def hande_sql(self, sql_point):
+        print(sql_point)
+        sql_points = {}
+        points = self.handle_sql_point(sql_point)
+        for key in points.keys():
+            checks = self.handle_checkPoint(points[key])
+            sql_points[key] = checks
+        return sql_points
 
     def handle_sql_point(self, sqls):
         """
@@ -104,10 +112,10 @@ class HandleCase(object):
         if "\n" in str(params):
             for i in str(params).split("\n"):
                 if "$" in i:
-                    related_params.append(i.replace("$",""))
+                    related_params.append(i.replace("$", ""))
         else:
             if "$" in params:
-                related_params.append(params.replace("$",""))
+                related_params.append(params.replace("$", ""))
         return related_params
 
     def handle_data(self, datas):
@@ -115,8 +123,6 @@ class HandleCase(object):
         处理用例的数据格式
         """
         global cid, apiId, describe, host, expect, method, params, checkPints, relatedApi, relatedParams
-        checkPints = {}
-        # relatedParamsInfo = {}
         if isinstance(datas, dict):
             cid = int(datas[CASEID])
             apiId = int(datas[APIID])
@@ -125,26 +131,21 @@ class HandleCase(object):
             expect = str(datas[EXPECT])
             method = str(datas[METHOD])
             params = str(datas[PARMAS])
+            headers = str(datas[APIHEADERS])
             relatedParams = str(datas[RELEATEDPARAMS])
             sqlStatement = str(datas[SQLSTATEMENT])
             databaseExpect = str(datas[DATABASEEXPECT])
+            testData = str(datas[TESTDATA])
             if expect:
-                if expect.split(";")[-1] != "":
-                    for item in expect.split(";"):
-                        checkPints.update(self.handle_checkPoint(item))
-                        # checkPints.append(item)
-                else:
-                    checkPints.update(expect.replace(";", ""))
-                datas[EXPECT] = checkPints
-            else:
-                datas[EXPECT] = {}
+                datas[EXPECT] = self.handle_checkPoint(expect)
             if sqlStatement:
                 datas[SQLSTATEMENT] = self.handle_sql_point(sqlStatement)
-
             if databaseExpect:
                 datas[DATABASEEXPECT] = self.handle_sql_point(databaseExpect)
             if relatedParams:
                 datas[RELEATEDPARAMS] = self.handle_related_params(relatedParams)
+            if testData:
+                datas[TESTDATA] = self.handle_sql_point(testData)
             return datas
         else:
             raise Exception("参数错误，所传参数datas必须是字典")
@@ -166,15 +167,18 @@ class HandleCase(object):
         for case in cases:
             case[CASEID] = int(case[CASEID])
             case[APIID] = int(case[APIID])
+            case[APIHEADERS] = case[APIHEADERS]
             case[CASEDESCRIBE] = quchu_n(str(case[CASEDESCRIBE]))
             case[APIHOST] = quchu_n(str(case[APIHOST]))
             case[PARMAS] = quchu_n(case[PARMAS])
-            case["apiHeaders"] = quchu_n(case["apiHeaders"])
             case[METHOD] = quchu_n(case[METHOD])
+            if not case[RELATEDAPI]:
+                case[RELATEDAPI]=None
             if isinstance(case[RELATEDAPI], float):
                 case[RELATEDAPI] = int(case[RELATEDAPI])
-            else:
-                case[RELATEDAPI] = None
+            if isinstance(case[RELATEDAPI],str):
+                # case[RELATEDAPI]=json.dumps(case[RELATEDAPI],cls=MyEncoder,ensure_ascii=False)
+                case[RELATEDAPI] = json.loads(case[RELATEDAPI],encoding="utf8")
             case[RELEATEDPARAMS] = case[RELEATEDPARAMS]
             case[RELEATEDPARAMS] = case[RELEATEDPARAMS]
             case[EXPECT] = case[EXPECT]

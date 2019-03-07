@@ -131,7 +131,6 @@ def run():
     # 获取所有用例
     cases = HandleCase().get_cases()
     for case in cases:
-
         # 将用例存入数据库临时保存
         con.insert_data("testcase", **case)
         # 将接口数据插入数据库apiInfo表中暂时保存

@@ -6,7 +6,7 @@
 from common.conDatabase import ConMysql, get_base_info
 from common.log import Log
 from common.handleCase import HandleCase, get_case_path
-# from common.httputils import Http
+from common.sendEmail import send_email_for_all
 from common.parseConfig import ParseConfig
 from common.report import get_now
 import string
@@ -17,9 +17,9 @@ import re
 from config.config import *
 import random
 import requests
-
 import argparse
-
+from common.utils import MyEncoder
+from common.html_report import html_body
 log = Log().getLog()
 pc = ParseConfig()
 pat = re.compile("DIS4=(.*?);")
@@ -82,6 +82,22 @@ con_server = ConMysql(server_database)  # 服务器数据库链接
 con = ConMysql()  # 本地数据库连接对象
 
 
+def prepare_test_data(data):
+    for key in data.keys():
+        if key == "sql":
+            try:
+                con_server.execute_sql(data[key])
+            except:
+                log.error("sql语句出错：%s" % data[key])
+        elif key == "sh":
+            try:
+                os.system(data[key])
+            except:
+                log.error("shell文件出错")
+        else:
+            pass
+
+
 class Http(object):
     """
     请求封装，post,get
@@ -105,17 +121,40 @@ def header_handle(header):
     :return:
     """
     headers = {}
-    if "&&" in header:
-        t = header.split("&&")
+    header = params_replace(header)
+    if "\n" in header:
+        t = header.split("\n")
         for i in t:
             if ":" in i:
                 key, value = i.split(":")
+                headers[key] = value
+            if "：" in i:
+                key, value = i.split("：")
                 headers[key] = value
     else:
         if ":" in header:
             key, value = header.split(":")
             headers[key] = value
     return headers
+
+
+def params_replace(p):
+    """
+    参数化替代
+    :param p:
+    :return:
+    """
+    r1 = re.compile("\${.*?}")  # 参数化格式
+    r2 = re.compile("\${(.*?)}")  # 参数名
+    if re.findall(r1, p):
+        for s in re.findall(r2, p):
+            if pc.get_info(PARAMETERIZE) and s in pc.get_info(PARAMETERIZE).keys():
+                a = pc.get_info(PARAMETERIZE)[s]
+                p = p.replace("${%s}" % s, a)
+                log.info("参数化成功%s" % p)
+            else:
+                log.error("参数化失败,没有%s这个参数" % s)
+    return p
 
 
 def generate_random_str(randomlength=16):
@@ -199,7 +238,7 @@ def update_message(number):
         )
 
 
-def get_all_related_apiinfo(case_api_id, relatedApi):
+def get_all_related_apiinfo(case, relatedApi):
     """
     获得当前执行用例的api以及与该api相关的api信息集合
     获得的接口信息会反转，最后关联的接口在最前，用例执行的接口在最后
@@ -207,17 +246,16 @@ def get_all_related_apiinfo(case_api_id, relatedApi):
     :param relatedApi:关联接口的apiId
     :return:关联接口信息 list
     """
-    if relatedApi=="self":
+    if relatedApi == "self":
         return relatedApi
     all_related_apiinfo = []
-    # 当前用例执行的接口信息
-    case_api_info = con.query_one(
-        "select * from {} where apiId={}"
-            .format(TABLEAPIINFO, case_api_id)
-    )
     # 将当前用例执行的接口保存到接口信息集合
-    all_related_apiinfo.append(case_api_info)
+    all_related_apiinfo.append(case)
     while True:
+        if isinstance(relatedApi,dict):
+            all_related_apiinfo.append(relatedApi)
+            all_related_apiinfo.reverse()
+            break
         if relatedApi is not None:
             relatedApiInfo = con.query_one(
                 "select * from {} where apiId={}"
@@ -229,10 +267,10 @@ def get_all_related_apiinfo(case_api_id, relatedApi):
                 all_related_apiinfo.reverse()
             else:
                 log.error(
-                    "接口{}所关联的接口{}在用例中没有选择执行".format(case_api_id, relatedApi)
+                    "接口{}所关联的接口{}在用例中没有选择执行".format(case, relatedApi)
                 )
                 return "ERRRR:接口{}所关联的接口{}在用例中没有选择执行" \
-                    .format(case_api_id, relatedApi)
+                    .format(case, relatedApi)
         else:
             break
     return all_related_apiinfo
@@ -257,21 +295,27 @@ def request_api(host, my_params, my_headers, request_method):
         log.info("headers信息写入配置文件成功--->{}".format(cookies))
     return res
 
+
 def new_excute_case(case):
-    related_params=case[RELEATEDPARAMS]
-    related_api=case[RELATEDAPI]
-    case_id=case[CASEID]
-    params=case[PARMAS]
-    sqlexpect=case[DATABASEEXPECT]
-    apiId=case[APIID]
+    related_params = case[RELEATEDPARAMS]
+    related_api = case[RELATEDAPI]
+    case_id = case[CASEID]
+    params = case[PARMAS]
+    sqlexpect = case[DATABASEEXPECT]
+    apiId = case[APIID]
     apiId = case[APIID]
     host = case[APIHOST]
-    method=case[METHOD]
-    headers=""
+    method = case[METHOD]
+    testData = case[TESTDATA]
+    headers = ""
     # 如果接口中有参数为phone，可能这个接口需要验证码，
     # 则调用updata_message初始化t_user_verify表
+    if testData:
+        prepare_test_data(testData)
     if params:
-        if "phone" in json.loads(params,encoding="utf8").keys():
+        params = params_replace(params)  # 参数化参数
+        case[PARMAS] = params
+        if "phone" in json.loads(params, encoding="utf8").keys():
             update_message(params["phone"])
     if not case:
         log.error("没有可执行的用例")
@@ -286,15 +330,15 @@ def new_excute_case(case):
             headers = get_headers()
     log.info("此次接口请求的header信息为--->{}".format(headers))
     # 获得关联接口信息
-    allRelatedApi = get_all_related_apiinfo(apiId, related_api)
-
+    allRelatedApi = get_all_related_apiinfo(case, related_api)
     # 判断用例执行的接口所关联的接口是否执行
     if isinstance(allRelatedApi, str):
         return allRelatedApi
     for api in allRelatedApi:
-        related_api_host=api[APIHOST]
-        related_api_params=api[PARMAS]
-        related_api_method=api[METHOD]
+        related_api_host = api[APIHOST]
+        related_api_params = api[PARMAS]
+        related_api_method = api[METHOD]
+        related_api_relatedparams = api.get(RELEATEDPARAMS)
         if api[APIHEADERS]:
             related_api_headers = header_handle(api[APIHEADERS])
         else:
@@ -302,15 +346,18 @@ def new_excute_case(case):
                 related_api_headers = None
             else:
                 related_api_headers = get_headers()
-        print(api[RELEATEDPARAMS])
-        related_api_relatedparams=api[RELEATEDPARAMS].replace(" ","").split(",")
+        if isinstance(related_api_relatedparams, str):
+            related_api_relatedparams = related_api_relatedparams.replace(" ", "").split(",")
         log.info("正在执行关联接口:{}".format(related_api_host))
         res = request_api(related_api_host,
                           related_api_params,
                           related_api_headers,
                           related_api_method
                           )
-        if not isinstance(res,str):
+        if res.status_code == 405:
+            return res
+
+        if not isinstance(res, str):
             try:
                 respJson = res.json()
             except:
@@ -319,33 +366,20 @@ def new_excute_case(case):
             if related_api_relatedparams and respJson:
                 for i in related_api_relatedparams:
                     if i == HEADERS:
-                        pc.wirte_info("params",HEADERS,
-                                        {"cookie": hand_cookie(res.cookies)})
+                        pc.wirte_info(PARAMETERIZE, HEADERS,
+                                      {"cookie": hand_cookie(res.cookies)})
                     if "." in i:
                         temp_resp = respJson
-                        ############################
                         for j in i.split("."):
                             if j in temp_resp.keys():
-                                temp_resp=temp_resp[j]
-                                pc.wirte_info("params",i,str(temp_resp))
-                    if i in  respJson.keys():
-                        pc.wirte_info("params", i, str(respJson[i]))
-        if api[APIID]==case[APIID]:
+                                temp_resp = temp_resp[j]
+                        pc.wirte_info(PARAMETERIZE, i, str(temp_resp))
+                    if i in respJson.keys():
+                        pc.wirte_info(PARAMETERIZE, i, str(respJson[i]))
+        if api.get(APIID) == case[APIID]:
+            # 单条用例执行完毕后，清空params
+            # pc.remote_section(PARAMETERIZE)
             return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def excute_case(case):
@@ -464,11 +498,12 @@ def excute_case(case):
 
 # 测试报告模板
 
-def get_report_data(caseID, caseDesciribe, apiHost,
+def get_report_data(caseID, caseDesciribe, apiHost,method,
                     apiParams, expect, fact, time="",
                     isPass=PASS, reason="",
                     databaseResult="", databaseExpect=""):
     result = {}
+    result[METHOD]=method
     result[CASEID] = caseID
     # result[APIID] = apiId
     result[CASEDESCRIBE] = caseDesciribe
@@ -484,15 +519,8 @@ def get_report_data(caseID, caseDesciribe, apiHost,
     return result
 
 
-def check(fact, expect, result):
-    """
-    检查点验证
-    :param fact:实际结果
-    :param expect: 预期结果
-    :param result: 报告模板
-    :return:
-    """
-    keyyyy = ""
+def test(exp, fact, result):
+    r = re.compile(r"\[(.*?)]")
     if "ERRRR" in fact:
         result[ISPASS] = FAIL
         result[REASON] = fact
@@ -502,109 +530,88 @@ def check(fact, expect, result):
         result[PARMAS] = json.dumps(fact[-1], ensure_ascii=False)
         fact = fact[0]
     else:
-        # try:
-            response = fact.json()
-            temps = ""
-            if not expect:
-                result[ISPASS] = BLOCK
-                result[FACT] = fact.text
-                result[EXPECT] = " "
-                result[TIME] = get_now().strftime(FORMORT)
-                result[REASON] = "检查点未设置或用例检查点格式错误"
-                return
-            temp_except = expect
-            temp_response = response
-            index=0
-            print(temp_except)
-            for keys in  temp_except:
-                value=temp_except[keys]
-                t=keys.split(".")
-                print(value)
-                for key in t:
-                    print("keykey--------%s"%key)
-                    if key not in temp_response.keys():
-                        print(temp_except)
-                        result[FACT] = fact.text
+        try:
+            res = fact.json()
+        except:
+            if "err_code" in exp.keys():
+                if str(exp["err_code"]) != str(fact.status_code):
+                    result[FACT] = fact.text
+                    result[ISPASS] = FAIL
+                    result[TIME] = get_now().strftime(FORMORT)
+                    reason = "{}的值预期为：{}，实际为：{}" \
+                        .format("err_code", exp["err_code"], fact.status_code)
+                    result[REASON] = reason
+                else:
+                    # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+                    if result[ISPASS].__eq__(FAIL):
                         result[ISPASS] = FAIL
-                        result[TIME] = get_now().strftime(FORMORT)
-                        result[REASON] = "实际结果中没有{}这个字段," \
-                                         "检查用例是否错误或接口返回结果错误".format(key)
-                        return
-                    if index!=len(t):
-                        temp_response = temp_response[key]
-                        # temp_except = temp_except[key]
                     else:
-                        if not str(temp_response).__eq__(value):
-                            print("sssssssssssssssssssssssssssssssssssssss")
+                        result[FACT] = fact.text
+                        result[ISPASS] = PASS
+                    result[TIME] = get_now().strftime(FORMORT)
+            return
+        if not exp:
+            result[ISPASS] = BLOCK
+            result[FACT] = fact.text
+            result[EXPECT] = " "
+            result[TIME] = get_now().strftime(FORMORT)
+            result[REASON] = "检查点未设置或用例检查点格式错误"
+            return
+        keys = exp.keys()
+        for key in keys:
+            values = exp[key].split(",")
+            items = key.split(".")
+            temp_res = res
+            for item in items:
+                if item not in temp_res.keys():
+                    result[FACT] = fact.text
+                    result[ISPASS] = FAIL
+                    result[TIME] = get_now().strftime(FORMORT)
+                    result[REASON] = "实际结果中没有{}这个字段," \
+                                     "检查用例是否错误或接口返回结果错误".format(item)
+                    return
+                temp_res = temp_res[item]
+            for value in values:
+                t = []
+                if re.findall(r, value):
+                    value = re.findall(r, value)
+                    for i in value:
+                        k, v = i.split("=")
+                        for j in temp_res:
+                            if k not in j.keys():
+                                result[FACT] = fact.text
+                                result[ISPASS] = FAIL
+                                result[TIME] = get_now().strftime(FORMORT)
+                                result[REASON] = "实际结果中没有{}这个字段," \
+                                                 "检查用例是否错误或接口返回结果错误".format(k)
+                                return
+                            t.append(j[k])
+                        try:
+                            v = int(v)
+                        except:
+                            v = v
+                        if v not in t:
                             result[FACT] = fact.text
                             result[ISPASS] = FAIL
                             result[TIME] = get_now().strftime(FORMORT)
-                            temps += "的值预期为：{}，实际为：{}\n" \
-                                .format(temp_except, temp_response)
-                            result[REASON] = temps
+                            reason = "{}字段预期的值不在返回结果集中，预期{}={}，实际{}=[{}]" \
+                                .format(k, k, v, k, t)
+                            result[REASON] = reason
+                else:
+                    if str(temp_res) != str(value):
+                        result[FACT] = fact.text
+                        result[ISPASS] = FAIL
+                        result[TIME] = get_now().strftime(FORMORT)
+                        reason = "{}字段预期为{}，实际为{}]".format(key, temp_res, value)
+                        result[REASON] = reason
+                    else:
+                        # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+                        if result[ISPASS].__eq__(FAIL):
+                            result[ISPASS] = FAIL
                         else:
-                            # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
-                            if result[ISPASS].__eq__(FAIL):
-                                result[ISPASS] = FAIL
-                            else:
-                                result[FACT] = fact.text
-                                result[ISPASS] = PASS
-                            result[TIME] = get_now().strftime(FORMORT)
-                        index+=1
-                # while True:
-                #     if isinstance(temp, dict):
-                #         for key2 in temp.keys():
-                #             if key2 not in response.keys():
-                #                 result[FACT] = fact.text
-                #                 result[ISPASS] = FAIL
-                #                 result[TIME] = get_now().strftime(FORMORT)
-                #                 result[REASON] = "实际结果中没有{}这个字段," \
-                #                                  "检查用例是否错误或接口返回结果错误".format(key2)
-                #                 return
-                #             response = response[key2]
-                #             temp = temp[key2]
-                #             keyyyy = key2
-                #             if not isinstance(temp, dict):
-                #                 if not str(response).__eq__(str(temp)):
-                #                     result[FACT] = fact.text
-                #                     result[ISPASS] = FAIL
-                #                     result[TIME] = get_now().strftime(FORMORT)
-                #                     temp += "{}的值预期为：{}，实际为：{}\n" \
-                #                         .format(keyyyy, temp, response)
-                #                     result[REASON] = temp
-                #                 else:
-                #                     # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
-                #                     if result[ISPASS].__eq__(FAIL):
-                #                         result[ISPASS] = FAIL
-                #                     else:
-                #                         result[FACT] = fact.text
-                #                         result[ISPASS] = PASS
-                #                     result[TIME] = get_now().strftime(FORMORT)
-                #                 break
-                #     else:
-                #         if not str(temp).__eq__(response):
-                #             result[FACT] = fact.text
-                #             result[ISPASS] = FAIL
-                #             result[TIME] = get_now().strftime(FORMORT)
-                #             temps += "{}的值预期为：{}，实际为：{}\n" \
-                #                 .format(key, expect[key], response[key])
-                #             result[REASON] = temps
-                #         else:
-                #             # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
-                #             if result[ISPASS].__eq__(FAIL):
-                #                 result[ISPASS] = FAIL
-                #             else:
-                #                 result[FACT] = fact.text
-                #                 result[ISPASS] = PASS
-                #             result[TIME] = get_now().strftime(FORMORT)
-                #         break
-        # except Exception as e:
-        #     result[ISPASS] = FAIL
-        #     result[FACT] = ""
-        #     result[TIME] = get_now().strftime(FORMORT)
-        #     result[REASON] = "程序出错：{}".format(str(e))
-        #     log.error(e)
-        #     return
+                            result[FACT] = fact.text
+                            result[ISPASS] = PASS
+                        result[TIME] = get_now().strftime(FORMORT)
 
 
 def checkDatabase(databaseExpect, databaseResult, result, fact):
@@ -623,30 +630,64 @@ def checkDatabase(databaseExpect, databaseResult, result, fact):
     if not databaseResult:
         result[DATABASERESUTL] = " "
     if databaseExpect and databaseResult:
-        for key in databaseResult.keys():
-            if result[ISPASS] == "pass":
-                if key not in databaseExpect.keys():
-                    result[ISPASS] = BLOCK
-                    result[FACT] = fact.text
-                    result[TIME] = get_now().strftime(FORMORT)
-                    result[REASON] = "数据库{}检查点未设置".format(key)
-                    return
-                if databaseResult[key] is None:
+        for key, values in databaseExpect.items():
+            value = values.split(",") or values.split("，")
+            for i in value:
+                k, v = i.split("=")
+                if k is None or v is None:
                     result[FACT] = fact.text
                     result[ISPASS] = BLOCK
                     result[TIME] = get_now().strftime(FORMORT)
                     result[REASON] = "用例sql语句书写错误"
                     return
-                if int(databaseExpect[key]) == databaseResult[key]:
+                if k == "len":
+                    if str(len(databaseResult[key])) != v:
+                        result[FACT] = fact.text
+                        result[ISPASS] = FAIL
+                        result[TIME] = get_now().strftime(FORMORT)
+                        result[REASON] = "数据库{}检查点检查失败，预期返回{}条数据，实际返回{}条数据" \
+                            .format(k, v, len(databaseResult[key]))
+                    continue
+                if k not in databaseResult[key][0].keys():
                     result[FACT] = fact.text
-                    result[ISPASS] = PASS
+                    result[ISPASS] = BLOCK
                     result[TIME] = get_now().strftime(FORMORT)
-                else:
+                    result[REASON] = "用例sql语句书写错误或数据库返回错误，{}不在数据库返回字段中" \
+                        .format(k)
+                    return
+                if str(databaseResult[key][0][k]) != v:
                     result[FACT] = fact.text
                     result[ISPASS] = FAIL
                     result[TIME] = get_now().strftime(FORMORT)
-                    result[REASON] = "数据库{}检查点检查失败，预期返回{}条数据，实际返回{}条数据" \
-                        .format(key,databaseExpect[key], databaseResult[key])
+                    result[REASON] = "数据库{}.{}检查点检查失败，预期为:{}，实际为:{}" \
+                        .format(key, k, v, databaseResult[key][0][k])
+                    return
+
+    # if databaseExpect and databaseResult:
+    #     for key in databaseResult.keys():
+    #         if result[ISPASS] == "pass":
+    #             if key not in databaseExpect.keys():
+    #                 result[ISPASS] = BLOCK
+    #                 result[FACT] = fact.text
+    #                 result[TIME] = get_now().strftime(FORMORT)
+    #                 result[REASON] = "数据库{}检查点未设置".format(key)
+    #                 return
+    #             if databaseResult[key] is None:
+    #                 result[FACT] = fact.text
+    #                 result[ISPASS] = BLOCK
+    #                 result[TIME] = get_now().strftime(FORMORT)
+    #                 result[REASON] = "用例sql语句书写错误"
+    #                 return
+    #             if int(databaseExpect[key]) == databaseResult[key]:
+    #                 result[FACT] = fact.text
+    #                 result[ISPASS] = PASS
+    #                 result[TIME] = get_now().strftime(FORMORT)
+    #             else:
+    #                 result[FACT] = fact.text
+    #                 result[ISPASS] = FAIL
+    #                 result[TIME] = get_now().strftime(FORMORT)
+    #                 result[REASON] = "数据库{}检查点检查失败，预期返回{}条数据，实际返回{}条数据" \
+    #                     .format(key, databaseExpect[key], databaseResult[key])
 
 
 def runAll():
@@ -663,8 +704,7 @@ def runAll():
         return
     log.info("共获取{}条用例".format(len(cases)))
     for case in cases:
-        print(case)
-        # 将用例存入数据库临时保存
+        # 将用例存入数据库临时保存,testData不入库保存
         con.insert_data(TABLECASE, **case)
         # 将接口数据插入数据库apiInfo表中暂时保存
         apiInfo = {
@@ -672,6 +712,7 @@ def runAll():
             APIHOST: case[APIHOST],
             PARMAS: case[PARMAS],
             METHOD: case[METHOD],
+            APIHEADERS: case[APIHEADERS],
             RELATEDAPI: case[RELATEDAPI],
             RELEATEDPARAMS: case[RELEATEDPARAMS]
         }
@@ -688,30 +729,37 @@ def runAll():
         sqlResult = {}
         # 执行用例
         res = new_excute_case(case)
+        # sql语句参数化
         if sqlStatement:
             for key in sqlStatement.keys():
-                result = con_server.query_all(sqlStatement[key])
+                result = con_server.query_all(
+                    params_replace(sqlStatement[key])
+                )
                 if result is not None:
-                    sqlResult[key] = len(result)
+                    sqlResult[key] = result
                 else:
                     sqlResult[key] = None
         else:
             sqlResult = {}
         # 报告模板
         result = get_report_data(
-            case[CASEID],
-            case[CASEDESCRIBE],
-            case[APIHOST],
-            case[PARMAS],
-            json.dumps(case[EXPECT], ensure_ascii=False),
-            res,
-            databaseExpect=json.dumps(databaseExpect, ensure_ascii=False),
-            databaseResult=json.dumps(sqlResult, ensure_ascii=False)
+            caseID=case[CASEID],
+            caseDesciribe=case[CASEDESCRIBE],
+            apiHost=case[APIHOST],
+            method=case[METHOD],
+            apiParams=case[PARMAS],
+            expect=json.dumps(case[EXPECT], ensure_ascii=False),
+            fact=res,
+            databaseExpect=json.dumps(databaseExpect, ensure_ascii=False, cls=MyEncoder),
+            databaseResult=json.dumps(sqlResult, ensure_ascii=False, cls=MyEncoder)
         )
         # 检查点验证
-        check(res, case[EXPECT], result)
+        test(fact=res, exp=case[EXPECT], result=result)
         # 数据库验证
-        checkDatabase(databaseExpect, sqlResult, result, res)
+        checkDatabase(databaseExpect=databaseExpect,
+                      databaseResult=sqlResult,
+                      result=result,
+                      fact=res)
 
         # 将执行结果写入数据库临时保存
         con.insert_data(TABLERESULT, **result)
@@ -750,50 +798,37 @@ def runAll():
     result_info = "本次测试执行完毕，本次测试环境为：{}，" \
                   "共耗时{}秒，共执行用例：{}条，" \
                   "成功：{}条，失败：{}条，阻塞：{}条" \
-        .format(test_env, float("%.2f" % time_consum),
+        .format(test_env[7:11], float("%.2f" % time_consum),
                 case_count, success_case,
                 fail_case, block_case)
     log.info(result_info)
     # 将测试结果写入测试报告
     report.set_result_info(result_info)
-    part_path, part_name = report.get_report(resultSet)
+    print(resultSet)
+    exc_path, part_name = report.get_report(resultSet)
 
-    # 关闭数据库
+    #生成html报告
+    html_title="%s接口自动化测试报告"%(get_now().strftime("%Y/%m/%d"))
+    html_path=html_body(
+        total=case_count,
+        starttime=time.strftime(FORMORT,time.localtime(start_time)),
+        endtime=time.strftime(FORMORT,time.localtime(end_time)),
+        during=time_consum,
+        passd=success_case,
+        fail=fail_case,
+        block=block_case,
+        titles=html_title,
+        details=resultSet
+    )
     con.close()
     con_server.close()
     # 测试完成发送邮件
-    # send_email_for_all(result_info,part_path)
+    send_email_for_all(
+        msg=result_info,
+        part_path=[exc_path,html_path])
 
 
 if __name__ == '__main__':
-    # log.debug("******************************************START******************************************")
+    log.debug("******************************************START******************************************")
     runAll()
-    # log.debug("******************************************END******************************************")
-    # init()  # 初始化
-    # resultSet = []  # 执行结果集
-    # cases = get_all_case()  # 测试用例集
-    # start_time = time.time()
-    # if not cases:
-    #     log.error("用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据")
-    # log.info("共获取{}条用例".format(len(cases)))
-    # for case in cases:
-    #     print(case)
-    #     # 将用例存入数据库临时保存
-    #     con.insert_data(TABLECASE, **case)
-    #     # 将接口数据插入数据库apiInfo表中暂时保存
-    #     apiInfo = {
-    #         APIID: int(case[APIID]),
-    #         APIHOST: case[APIHOST],
-    #         PARMAS: case[PARMAS],
-    #         METHOD: case[METHOD],
-    #         RELATEDAPI: case[RELATEDAPI],
-    #         RELEATEDPARAMS: case[RELEATEDPARAMS]
-    #     }
-    #     # 如果数据库中不存在apiId的接口，则插入
-    #     if not con.query_all(
-    #             "select * from {}  where apiId={}"
-    #                     .format(TABLEAPIINFO, apiInfo[APIID])):
-    #         con.insert_data(TABLEAPIINFO, **apiInfo)
-    #
-    # for case in cases:
-    #     new_excute_case(case)
+    log.debug("******************************************END******************************************")

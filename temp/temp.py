@@ -142,7 +142,7 @@ def excute_case(case):
             #         log.info("headers信息写入配置文件成功--->{}".format(dis4[0]))
             break
     print("alll---------------->{}".format(allRelatedApi))
-    if allRelatedApi and len(allRelatedApi)>1:
+    if allRelatedApi and len(allRelatedApi) > 1:
         apiHeaders = headers
         for i in range(len(allRelatedApi)):
             if i < len(allRelatedApi) - 1:
@@ -196,7 +196,7 @@ def excute_case(case):
                     else:
                         print("adsfadsf")
                         var = locals()
-                        var[relatedParams]=respJson[relatedParams]
+                        var[relatedParams] = respJson[relatedParams]
                 elif isinstance(relatedParams, list):
                     for j in relatedParams:
                         if isinstance(j, str):
@@ -213,7 +213,7 @@ def excute_case(case):
                     dis4 = re.findall(pat, res.headers["Set-Cookie"])
                     print("disr---->{}".format(dis4))
                     if isinstance(dis4, list):
-                        if len(dis4)>1:
+                        if len(dis4) > 1:
                             pc.wirte_info(HEADERS, "cookie", "DIS4={}".format(dis4[-1]))
                         else:
                             pc.wirte_info(HEADERS, "cookie", "DIS4={}".format(dis4[0]))
@@ -455,6 +455,187 @@ def runAll():
     # 关闭数据库
     con.close()
     con_server.close()
+
+
+# while True:
+#     if isinstance(temp, dict):
+#         for key2 in temp.keys():
+#             if key2 not in response.keys():
+#                 result[FACT] = fact.text
+#                 result[ISPASS] = FAIL
+#                 result[TIME] = get_now().strftime(FORMORT)
+#                 result[REASON] = "实际结果中没有{}这个字段," \
+#                                  "检查用例是否错误或接口返回结果错误".format(key2)
+#                 return
+#             response = response[key2]
+#             temp = temp[key2]
+#             keyyyy = key2
+#             if not isinstance(temp, dict):
+#                 if not str(response).__eq__(str(temp)):
+#                     result[FACT] = fact.text
+#                     result[ISPASS] = FAIL
+#                     result[TIME] = get_now().strftime(FORMORT)
+#                     temp += "{}的值预期为：{}，实际为：{}\n" \
+#                         .format(keyyyy, temp, response)
+#                     result[REASON] = temp
+#                 else:
+#                     # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+#                     if result[ISPASS].__eq__(FAIL):
+#                         result[ISPASS] = FAIL
+#                     else:
+#                         result[FACT] = fact.text
+#                         result[ISPASS] = PASS
+#                     result[TIME] = get_now().strftime(FORMORT)
+#                 break
+#     else:
+#         if not str(temp).__eq__(response):
+#             result[FACT] = fact.text
+#             result[ISPASS] = FAIL
+#             result[TIME] = get_now().strftime(FORMORT)
+#             temps += "{}的值预期为：{}，实际为：{}\n" \
+#                 .format(key, expect[key], response[key])
+#             result[REASON] = temps
+#         else:
+#             # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+#             if result[ISPASS].__eq__(FAIL):
+#                 result[ISPASS] = FAIL
+#             else:
+#                 result[FACT] = fact.text
+#                 result[ISPASS] = PASS
+#             result[TIME] = get_now().strftime(FORMORT)
+#         break
+def check(fact, expect, result):
+    """
+    弃用
+    检查点验证
+    :param fact:实际结果
+    :param expect: 预期结果
+    :param result: 报告模板
+    :return:
+    """
+    if "ERRRR" in fact:
+        result[ISPASS] = FAIL
+        result[REASON] = fact
+        result[TIME] = get_now().strftime(FORMORT)
+        return
+    if isinstance(fact, tuple):
+        result[PARMAS] = json.dumps(fact[-1], ensure_ascii=False)
+        fact = fact[0]
+    else:
+        try:
+            response = fact.json()
+        except:
+            if "err_code" in expect.keys():
+                if expect["err_code"] != fact.status_code:
+                    result[FACT] = fact.text
+                    result[ISPASS] = FAIL
+                    result[TIME] = get_now().strftime(FORMORT)
+                    reason = "{}的值预期为：{}，实际为：{}" \
+                        .format("err_code", expect["err-code"], fact.status_code)
+                    result[REASON] = reason
+                else:
+                    # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+                    if result[ISPASS].__eq__(FAIL):
+                        result[ISPASS] = FAIL
+                    else:
+                        result[FACT] = fact.text
+                        result[ISPASS] = PASS
+                    result[TIME] = get_now().strftime(FORMORT)
+        temps = ""
+        if not expect:
+            result[ISPASS] = BLOCK
+            result[FACT] = fact.text
+            result[EXPECT] = " "
+            result[TIME] = get_now().strftime(FORMORT)
+            result[REASON] = "检查点未设置或用例检查点格式错误"
+            return
+        # temp_except = expect
+        # temp_response = response
+        for keys in expect.keys():
+            index = 0
+            value = expect[keys]
+            if "," in value:
+                value = value.split(",")
+            if "，" in value:
+                value = value.split("，")
+            item = keys.split(".")
+            temp_response = response
+            r = re.compile(r"\[(.*?)]")
+            for key in item:
+                if key not in temp_response:
+                    result[FACT] = fact.text
+                    result[ISPASS] = FAIL
+                    result[TIME] = get_now().strftime(FORMORT)
+                    result[REASON] = "实际结果中没有{}这个字段," \
+                                     "检查用例是否错误或接口返回结果错误".format(key)
+                    return
+                temp_response = temp_response[key]
+                if index == len(item) - 1:
+                    if isinstance(temp_response, list):
+                        if not temp_response and value:
+                            result[FACT] = fact.text
+                            result[ISPASS] = FAIL
+                            result[TIME] = get_now().strftime(FORMORT)
+                            result[REASON] = "{}实际返回为空，预期不为空".format(key)
+                            return
+                        if not value and temp_response:
+                            result[FACT] = fact.text
+                            result[ISPASS] = FAIL
+                            result[TIME] = get_now().strftime(FORMORT)
+                            result[REASON] = "{}实际返回不为空，预期为空".format(key)
+                            return
+                        if not value and not temp_response:
+                            result[FACT] = fact.text
+                            result[ISPASS] = PASS
+                            result[TIME] = get_now().strftime(FORMORT)
+                            continue
+                        for rp in temp_response:
+                            for vl in value:
+                                k, v = vl.split("=")
+                                if k not in rp:
+                                    result[FACT] = fact.text
+                                    result[ISPASS] = FAIL
+                                    result[TIME] = get_now().strftime(FORMORT)
+                                    result[REASON] = "实际结果中没有{}这个字段," \
+                                                     "检查用例是否错误或接口返回结果错误".format(k)
+                                    return
+                                if not str(rp[k]) == str(v):
+                                    result[FACT] = fact.text
+                                    result[ISPASS] = FAIL
+                                    result[TIME] = get_now().strftime(FORMORT)
+                                    temps += "{}的值预期为：{}，实际为：{}\n" \
+                                        .format(k, v, rp[k])
+                                    result[REASON] = temps
+                                else:
+                                    # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+                                    if result[ISPASS].__eq__(FAIL):
+                                        result[ISPASS] = FAIL
+                                    else:
+                                        result[FACT] = fact.text
+                                        result[ISPASS] = PASS
+                                    result[TIME] = get_now().strftime(FORMORT)
+                    if not str(temp_response) == str(value):
+                        result[FACT] = fact.text
+                        result[ISPASS] = FAIL
+                        result[TIME] = get_now().strftime(FORMORT)
+                        temps += "{}的值预期为：{}，实际为：{}\n".format(key, value, temp_response)
+                        result[REASON] = temps
+                    else:
+                        # 判断是否有检查点判断失败，如果有，ispass值仍然为fail
+                        if result[ISPASS].__eq__(FAIL):
+                            result[ISPASS] = FAIL
+                        else:
+                            result[FACT] = fact.text
+                            result[ISPASS] = PASS
+                        result[TIME] = get_now().strftime(FORMORT)
+                index += 1
+    # except Exception as e:
+    #     result[ISPASS] = FAIL
+    #     result[FACT] = ""
+    #     result[TIME] = get_now().strftime(FORMORT)
+    #     result[REASON] = "程序出错：{}".format(str(e))
+    #     log.error(e)
+    #     return
 
 
 if __name__ == '__main__':

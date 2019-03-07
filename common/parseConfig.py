@@ -6,11 +6,15 @@
 from configparser import ConfigParser
 import os, platform
 
+
 class myconf(ConfigParser):
-    def __init__(self,defaults=None):
-        ConfigParser.__init__(self,defaults=None)
+    def __init__(self, defaults=None):
+        ConfigParser.__init__(self, defaults=None)
+
     def optionxform(self, optionstr):
         return optionstr
+
+
 # 设置路径
 def setPath(pathName=None, fileName=None):
     """
@@ -39,7 +43,7 @@ class ParseConfig(object):
         # 配置文件所在路径
         self.path = setPath(pathName="config", fileName="info.ini")
         self.cf = myconf()
-        self.cf.read(self.path,encoding="gbk")
+        self.cf.read(self.path, encoding="gbk")
 
     # 根据section读取配置文件信息，返回数据字典
     def get_info(self, section):
@@ -64,7 +68,7 @@ class ParseConfig(object):
         if section not in self.cf.sections():
             self.cf.add_section(section)
         self.cf.set(section, option, info)
-        with open(self.path, "w",encoding="gbk") as f:
+        with open(self.path, "w", encoding="gbk") as f:
             self.cf.write(f)
             f.close()
 
@@ -98,4 +102,4 @@ class ParseConfig(object):
 
 if __name__ == '__main__':
     pc = ParseConfig()
-    pc.wirte_info("params","a","b")
+    pc.wirte_info("params", "a", "b")
